@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/convergentfacilitation_logo.png',
 
   // Set the production url of your site here
-  url: 'https://convergentfacilitation.org',
+  url: 'https://cozy-centaur-2df273.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
