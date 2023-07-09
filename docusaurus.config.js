@@ -35,12 +35,15 @@ const config = {
     // Put your custom environment here
     googleCalendarApiKey: process.env.GOOGLECALENDARAPIKEY,
   },
+  onBrokenLinks: 'ignore',
 
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        debug: false,
+
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.

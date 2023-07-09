@@ -18,6 +18,8 @@ export type FeatureItem = {
   text: JSX.Element;
 };
 
+
+
 const FEATURES: FeatureItem[] = [
 
   {
@@ -106,5 +108,41 @@ const FEATURES: FeatureItem[] = [
     ),
   },
 ];
+
+// export type FeatureItem = {
+//   title: string;
+//   image: {
+//     src: string;
+//     width: number;
+//     height: number;
+//   };
+//   text: string;
+// };
+
+
+// const FEATURES: FeatureItem[] = [
+//   {
+//     title: 'Inviting dissent',
+//     image: {
+//       src: '/img/undraw_faq_re_31cw.svg',
+//       width: 1137,
+//       height: 776.59,
+//     },
+//     text: 'Rather than pressing for agreement, we are encouraging participants to bring their concerns to create a resilient decision that everyone is willing to follow.',
+//   },
+// ];
+// export default function MyComponent() {
+//   return (
+//     <>
+//       {FEATURES.map((feature) => (
+//         <div key={feature.title}>
+//           <h3>{feature.title}</h3>
+//           <img src={feature.image.src} width={feature.image.width} height={feature.image.height} />
+//           <p>{feature.text}</p>
+//         </div>
+//       ))}
+//     </>
+//   );
+// }
 
 export default FEATURES;
