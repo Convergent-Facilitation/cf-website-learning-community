@@ -1,0 +1,30 @@
+endi:
+  name: Endilie Yacop Sucipto
+  title: Maintainer of Docusaurus
+  url: https://github.com/endiliey
+  image_url: https://github.com/endiliey.png
+
+yangshun:
+  name: Yangshun Tay
+  title: Front End Engineer @ Facebook
+  url: https://github.com/yangshun
+  image_url: https://github.com/yangshun.png
+
+slorber:
+  name: Sébastien Lorber
+  title: Docusaurus maintainer
+  url: https://sebastienlorber.com
+  image_url: https://github.com/slorber.png
+
+fabian:
+    name: Fabian Kirsch
+    title: Convergent Facilitation Steward
+    url: /fabiankirsch.md
+    image_url: /img/profile_cf_fabian_kirsch.jpg
+
+verene:
+    name: Verene Nicolas
+    title: Converent Facilitation Provider and Steward
+    url: /profiles/verenenicolas.md
+    image_url: /img/profile_cf_verene_nicolas.jpg
+
