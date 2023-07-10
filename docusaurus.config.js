@@ -103,7 +103,6 @@ const config = {
               activeBaseRegex: `/community/`,
             },
             {to: 'events', label: 'Events', position: 'left'},
-            {to: 'contact', label: 'Contact', position: 'right'},
 //         {
 //               type: 'localeDropdown',
 //               position: 'right',
@@ -123,11 +122,14 @@ const config = {
 //             label: 'Tutorial',
 //           },
 //           {to: '/blog', label: 'Blog', position: 'left'},
-//           {
-//             href: 'https://github.com/facebook/docusaurus',
-//             label: 'GitHub',
-//             position: 'right',
-//           },
+               {
+              href: 'https://www.hylo.com/groups/convergent-facilitation',
+              position: 'right',
+              className: 'header-hylo-link',
+              'aria-label': 'GitHub repository',
+            },
+                 {to: 'contact', label: 'Contact', position: 'right'},
+
         ],
       },
       footer: {

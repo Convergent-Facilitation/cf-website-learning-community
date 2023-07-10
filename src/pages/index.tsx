@@ -21,7 +21,7 @@ import { InlineIcon,Icon } from '@iconify/react'; // Import the entire Iconify l
 
 function HeroBanner() {
   return (
-    <div className={styles.hero} data-theme="dark">
+    <div className={styles.hero} data-theme="light">
       <div className={styles.heroInner}>
         <Heading as="h1" className={styles.heroProjectTagline}>
           <img
