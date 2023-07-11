@@ -11,17 +11,12 @@ const config = {
   favicon: 'img/convergentfacilitation_logo.png',
 
   // Set the production url of your site here
-  url: 'https://cozy-centaur-2df273.netlify.app',
+  url: 'https://convergentfacilitation.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -35,7 +30,7 @@ const config = {
     // Put your custom environment here
     googleCalendarApiKey: process.env.GOOGLECALENDARAPIKEY,
   },
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'ignore', // later use 'throw'
 
   presets: [
     [
@@ -46,17 +41,19 @@ const config = {
 
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+       path: 'engage',
+       routeBasePath: 'engage',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Convergent-Facilitation/cf-website/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Convergent-Facilitation/cf-website/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -77,7 +74,7 @@ const config = {
         },
       announcementBar: {
           id: 'announcementBar-2', // Increment on change
-          content: `⭐️ Upcoming free Convergent Facilitation Introductory Course: <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus">Local to Global Governance</a> — with Paul Kahawatte and Verene Nicolas ⭐️`,
+          content: `⭐️ Upcoming free Convergent Facilitation Introductory Course: <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus">Re-organizing humanity into collaborative structures</a> — with Paul Kahawatte and Verene Nicolas ⭐️`,
         },
       navbar: {
         hideOnScroll: false,
@@ -87,22 +84,13 @@ const config = {
           src: 'img/convergentfacilitation_logo.png',
         },
         items: [
-        {
-              type: 'doc',
-              position: 'left',
-              docId: 'intro',
-              label: 'Learn',
-            },
-            {to: 'blog', label: 'Blog', position: 'left'},
+          {label: 'Resources',to: 'showcase',  position: 'left'},
+          {label: 'Blog', to: 'blog',  position: 'left'},
+          {label: 'Events',to: 'events',  position: 'left'},
 
-            {to: 'showcase', label: 'Resources', position: 'left'},
-            {
-              to: '/community/support',
-              label: 'Contribute',
-              position: 'left',
-              activeBaseRegex: `/community/`,
-            },
-            {to: 'events', label: 'Events', position: 'left'},
+          {label: 'About', to: 'about', position: 'left'},
+          {label: 'Give',to: '/give', position: 'left'},
+
 //         {
 //               type: 'localeDropdown',
 //               position: 'right',
@@ -126,9 +114,14 @@ const config = {
               href: 'https://www.hylo.com/groups/convergent-facilitation',
               position: 'right',
               className: 'header-hylo-link',
-              'aria-label': 'GitHub repository',
+              'aria-label': 'Hylo Group',
             },
+               {label: 'Engage',
+           type: 'doc',
+           position: 'right',
+           docId: 'spheres-for-engaging'},
                  {to: 'contact', label: 'Contact', position: 'right'},
+
 
         ],
       },

@@ -47,14 +47,14 @@ function HeroBanner() {
         </Heading>
         <p className={styles.heroProjectSubtitle}> Bring people together across differences within a facilitated decision making process and find creative and nuanced solutions that work for everyone.</p>
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/docs">
+          <Link className="button button--primary" to="/engage/spheres-for-engaging">
           <InlineIcon icon="mdi:seedling"/>
-            <Translate> Become a facilitator</Translate>
+            <Translate> Find your Leverage Point</Translate>
           </Link>
-          <Link className="button button--secondary button-outline" to="https://docusaurus.new">
+          <Link className="button button--secondary button-outline" to="/contact">
           <InlineIcon icon="bx:bxs-heart"/>
 
-            <Translate> Find a facilitator</Translate>
+            <Translate> Get Support</Translate>
           </Link>
 
         </div>
@@ -128,7 +128,7 @@ function FeaturesContainer() {
   return (
     <div className="container text--center">
       <Heading as="h2">
-        <Translate>Main features</Translate>
+        <Translate>What makes Convergent Facilition powerful</Translate>
       </Heading>
       <div className="row margin-bottom--lg">
         {firstRow.map((feature, idx) => (

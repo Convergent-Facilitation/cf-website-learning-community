@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun, fabian]
+authors: [fabian, roni, sabine, verene, marcela]
 tags: [facebook, hello, docusaurus]
 ---
 

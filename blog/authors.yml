@@ -1,30 +1,30 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
-
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
 
 fabian:
     name: Fabian Kirsch
     title: Convergent Facilitation Steward
-    url: /fabiankirsch.md
-    image_url: /img/profile_cf_fabian_kirsch.jpg
+    url: /fabiankirsch
+    image_url: /img/fabian_kirsch.jpg
 
 verene:
     name: Verene Nicolas
     title: Converent Facilitation Provider and Steward
-    url: /profiles/verenenicolas.md
-    image_url: /img/profile_cf_verene_nicolas.jpg
+    url: /verenenicolas
+    image_url: /img/verene_nicolas.jpg
 
+marcela:
+    name: Marcela Descalzi
+    title: Convergent Facilitation Steward
+    url: /marceladescalzi
+    image_url: /img/marcela_descalzi.png
+
+sabine:
+    name: Sabine Virani
+    title: Convergent Facilitation Community Supporter
+    url: /sabinevirani
+    image_url: /img/sabine_virani.jpg
+
+roni:
+    name: Roni Wiener
+    title: Convergent Facilitation Provider
+    url: /aboutus#roni-wiener
+    image_url: /img/roni_wiener.png
