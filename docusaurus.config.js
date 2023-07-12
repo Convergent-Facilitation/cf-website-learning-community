@@ -89,7 +89,8 @@ const config = {
           {label: 'Events',to: 'events',  position: 'left'},
 
           {label: 'About', to: 'about', position: 'left'},
-          {label: 'Give',to: '/give', position: 'left'},
+               {to: 'contact', label: 'Contact', position: 'left'},
+
 
 //         {
 //               type: 'localeDropdown',
@@ -120,7 +121,8 @@ const config = {
            type: 'doc',
            position: 'right',
            docId: 'spheres-for-engaging'},
-                 {to: 'contact', label: 'Contact', position: 'right'},
+          {label: 'Give',to: '/give', position: 'right'},
+
 
 
         ],
