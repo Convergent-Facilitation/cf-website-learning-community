@@ -45,18 +45,20 @@ export default function GcalEvents(): JSX.Element {
     return (
 
           <FullCalendar
-            plugins={[googleCalendarPlugin, dayGridPlugin, timeGridPlugin, interactionPlugin, listPlugin]}
-//               plugins={[ googleCalendarPlugin ]}
+//             plugins={[googleCalendarPlugin, dayGridPlugin, timeGridPlugin, interactionPlugin, listPlugin]}
+              plugins={[ googleCalendarPlugin, listPlugin]}
             googleCalendarApiKey= {customFields.googleCalendarApiKey}
   events= {{
     googleCalendarId: 'community-calendar@convergentfacilitation.org'
   }}
             headerToolbar={{
               left: 'title',
-              center: 'prev,next today',
-              right: 'listMonth,dayGridMonth'
+              center: 'prev,next',
+              right: 'today'
             }}
             initialView='listMonth'
+      // other view-specific options here
+
 //             editable={true}
 //             selectable={true}
 //             selectMirror={true}

@@ -50,6 +50,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+       blogSidebarTitle: 'Recent Posts',
+       authorsMapPath: '../humans.yml',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -254,7 +256,23 @@ const config = {
         steps: 2, // the max number of images generated between min and max (inclusive)
         disableInDev: false,
       },
-    ],
+          ],
+
+      [
+      '@docusaurus/plugin-content-blog',
+      {
+        path: 'events',
+        routeBasePath: 'events',
+        id: 'events',
+        blogSidebarTitle: 'Upcoming events',
+        showReadingTime: false,
+        authorsMapPath: '../humans.yml'
+
+
+
+      }
+      ]
+
 
   ],
 };
