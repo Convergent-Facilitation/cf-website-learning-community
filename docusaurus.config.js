@@ -74,7 +74,7 @@ const config = {
         },
       announcementBar: {
           id: 'announcementBar-2', // Increment on change
-          content: `⭐️ Upcoming free Convergent Facilitation Introductory Course: <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus">Re-organizing humanity into collaborative structures</a> — with Paul Kahawatte and Verene Nicolas ⭐️`,
+          content: `⭐️ Welcome to our new Convergent Facilitation website! Read more about it in our blogpost: <a target="_blank" rel="noopener noreferrer" href="/blog/welcome"><i>Find your Way to Engage</i></a> ⭐️`,
         },
       navbar: {
         hideOnScroll: false,
@@ -84,12 +84,11 @@ const config = {
           src: 'img/convergentfacilitation_logo.png',
         },
         items: [
+          {label: 'About', to: 'about', position: 'left'},
           {label: 'Resources',to: 'showcase',  position: 'left'},
           {label: 'Blog', to: 'blog',  position: 'left'},
           {label: 'Events',to: 'events',  position: 'left'},
-
-          {label: 'About', to: 'about', position: 'left'},
-               {to: 'contact', label: 'Contact', position: 'left'},
+          {label: 'Contact', to: 'contact', position: 'left'},
 
 
 //         {
@@ -111,17 +110,19 @@ const config = {
 //             label: 'Tutorial',
 //           },
 //           {to: '/blog', label: 'Blog', position: 'left'},
-               {
+               {label: 'Give',to: '/give', position: 'right'},
+
+
+               {label: 'Engage',
+           type: 'doc',
+           position: 'right',
+           docId: 'spheres-for-engaging'},
+     {
               href: 'https://www.hylo.com/groups/convergent-facilitation',
               position: 'right',
               className: 'header-hylo-link',
               'aria-label': 'Hylo Group',
             },
-               {label: 'Engage',
-           type: 'doc',
-           position: 'right',
-           docId: 'spheres-for-engaging'},
-          {label: 'Give',to: '/give', position: 'right'},
 
 
 
@@ -254,6 +255,7 @@ const config = {
         disableInDev: false,
       },
     ],
+
   ],
 };
 

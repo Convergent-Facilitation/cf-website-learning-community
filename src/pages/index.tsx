@@ -49,12 +49,12 @@ function HeroBanner() {
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/engage/spheres-for-engaging">
           <InlineIcon icon="mdi:seedling"/>
-            <Translate> Find your Leverage Point</Translate>
+            <Translate> Find your Level of Engagement</Translate>
           </Link>
           <Link className="button button--secondary button-outline" to="/contact">
           <InlineIcon icon="bx:bxs-heart"/>
 
-            <Translate> Get Support</Translate>
+            <Translate> Find a facilitator</Translate>
           </Link>
 
         </div>
