@@ -50,7 +50,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-       blogSidebarTitle: 'Recent Posts',
+       blogSidebarTitle: 'All Posts',
        authorsMapPath: '../humans.yml',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -264,12 +264,9 @@ const config = {
         path: 'events',
         routeBasePath: 'events',
         id: 'events',
-        blogSidebarTitle: 'Upcoming events',
+        blogSidebarTitle: 'All events',
         showReadingTime: false,
         authorsMapPath: '../humans.yml'
-
-
-
       }
       ]
 

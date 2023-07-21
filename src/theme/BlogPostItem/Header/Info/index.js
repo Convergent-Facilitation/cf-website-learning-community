@@ -4,20 +4,16 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-
 import React from 'react';
 import clsx from 'clsx';
 import {translate} from '@docusaurus/Translate';
 import {usePluralForm} from '@docusaurus/theme-common';
 import {useBlogPost} from '@docusaurus/theme-common/internal';
-import type {Props} from '@theme/BlogPostItem/Header/Info';
-
 import styles from './styles.module.css';
-
 // Very simple pluralization: probably good enough for now
 function useReadingTimePlural() {
   const {selectMessage} = usePluralForm();
-  return (readingTimeFloat: number) => {
+  return (readingTimeFloat) => {
     const readingTime = Math.ceil(readingTimeFloat);
     return selectMessage(
       readingTime,
@@ -33,30 +29,23 @@ function useReadingTimePlural() {
     );
   };
 }
-
-function ReadingTime({readingTime}: {readingTime: number}) {
+function ReadingTime({readingTime}) {
   const readingTimePlural = useReadingTimePlural();
   return <>{readingTimePlural(readingTime)}</>;
 }
-
-function Date({date, formattedDate}: {date: string; formattedDate: string}) {
+function Date({date, formattedDate}) {
   return (
     <time dateTime={date} itemProp="datePublished">
       {formattedDate}
     </time>
   );
 }
-
 function Spacer() {
   return <>{' · '}</>;
 }
-
-export default function BlogPostItemHeaderInfo({
-  className,
-}: Props): JSX.Element {
+export default function BlogPostItemHeaderInfo({className}) {
   const {metadata} = useBlogPost();
   const {date, formattedDate, readingTime} = metadata;
-
   return (
     <div className={clsx(styles.container, 'margin-vert--md', className)}>
       <Date date={date} formattedDate={formattedDate} />

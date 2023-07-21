@@ -4,11 +4,10 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-
 import React from 'react';
 import Translate, {translate} from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
-import type {Props} from '@theme/BlogPostItem/Footer/ReadMoreLink';
+import { useLocation } from 'react-router-dom';
 
 function ReadMoreLabel() {
   return (
@@ -22,10 +21,22 @@ function ReadMoreLabel() {
   );
 }
 
-export default function BlogPostItemFooterReadMoreLink(
-  props: Props,
-): JSX.Element {
+function FullEventLabel() {
+  return (
+    <b>
+      <Translate
+        id="theme.blog.post.readMore"
+        description="The label used in blog post item excerpts to link to full blog posts">
+        See Full Event
+      </Translate>
+    </b>
+  );
+}
+export default function BlogPostItemFooterReadMoreLink(props) {
   const {blogPostTitle, ...linkProps} = props;
+  const location = useLocation();
+  const isEventsRoute = location.pathname === '/events';
+
   return (
     <Link
       aria-label={translate(
@@ -38,7 +49,18 @@ export default function BlogPostItemFooterReadMoreLink(
         {title: blogPostTitle},
       )}
       {...linkProps}>
-      <ReadMoreLabel />
+
+    {isEventsRoute ? (
+          <>
+            <FullEventLabel />
+          </>
+        ) :
+        (
+          <>
+            <ReadMoreLabel />
+          </>
+        )
+    }
     </Link>
   );
 }
