@@ -27,7 +27,7 @@ function HeroBanner() {
           <img
             alt={translate({message: 'Faces of many colors'})}
             className={styles.heroLogo}
-            src={useBaseUrl('/img/facesofallcolors.png')}
+            src={useBaseUrl('/img/facesofallcolors.webp')}
             width="550"
             height="550"
           />

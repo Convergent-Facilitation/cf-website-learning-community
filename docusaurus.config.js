@@ -264,7 +264,7 @@ const config = {
         path: 'events',
         routeBasePath: 'events',
         id: 'events',
-        blogSidebarTitle: 'All events',
+        blogSidebarTitle: 'All Events',
         showReadingTime: false,
         authorsMapPath: '../humans.yml'
       }
