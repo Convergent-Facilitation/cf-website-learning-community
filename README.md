@@ -1,3 +1,10 @@
+# Usage of admonitions:
+- :::note HOW TO USE THIS WEBSITE (white): for help how to navigate the page
+- :::info SHARE ON HYLO (blue): request/invitation to share on hylo
+- :::tip LEARN CONVERGENT FACILITATION (green): offering some learning about CF (principles/process)
+- :::caution PAGE INCOMPLETE — HELP COMPLETE IT (orange): request to contribute to incomplete page
+- :::danger/warning (red)
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.

@@ -51,10 +51,10 @@ function HeroBanner() {
           <InlineIcon icon="mdi:seedling"/>
             <Translate> Find your Level of Engagement</Translate>
           </Link>
-          <Link className="button button--secondary button-outline" to="/contact">
+          <Link className="button button--secondary button-outline" to="/resources/overview">
           <InlineIcon icon="bx:bxs-heart"/>
 
-            <Translate> Find a facilitator</Translate>
+            <Translate> Explore our Resources</Translate>
           </Link>
 
         </div>

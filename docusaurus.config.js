@@ -15,10 +15,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-
   onBrokenMarkdownLinks: 'warn',
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -87,8 +84,12 @@ const config = {
         },
         items: [
           {label: 'About', to: 'about', position: 'left'},
-          {label: 'Resources',to: 'showcase',  position: 'left'},
-          {label: 'Blog', to: 'blog',  position: 'left'},
+ {label: 'Resources',
+           type: 'doc',
+docsPluginId: 'resources',
+           position: 'left',
+           docId: 'overview'},
+     {label: 'Blog', to: 'blog',  position: 'left'},
           {label: 'Events',to: 'events',  position: 'left'},
           {label: 'Contact', to: 'contact', position: 'left'},
 
@@ -256,8 +257,7 @@ const config = {
         steps: 2, // the max number of images generated between min and max (inclusive)
         disableInDev: false,
       },
-          ],
-
+      ],
       [
       '@docusaurus/plugin-content-blog',
       {
@@ -268,7 +268,18 @@ const config = {
         showReadingTime: false,
         authorsMapPath: '../humans.yml'
       }
+      ],
+       [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'resources',
+        routeBasePath: 'resources',
+        id: 'resources',
+        sidebarPath: require.resolve('./sidebars.js'),
+
+      }
       ]
+
 
 
   ],
