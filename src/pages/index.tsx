@@ -38,7 +38,7 @@ function HeroBanner() {
               __html: translate({
                 id: 'homepage.hero.title',
                 message:
-                  '<b>Together</b> getting out of the mess we are in',
+                  '<b>Getting out of the mess we are in</b> <br> together',
                 description:
                   'Home page hero title, can contain simple html tags',
               }),
