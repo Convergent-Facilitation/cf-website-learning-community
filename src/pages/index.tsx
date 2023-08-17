@@ -38,7 +38,7 @@ function HeroBanner() {
               __html: translate({
                 id: 'homepage.hero.title',
                 message:
-                  '<b>Solutions</b> that work for <b>everyone</b>',
+                  '<b>Together</b> getting out of the mess we are in',
                 description:
                   'Home page hero title, can contain simple html tags',
               }),
@@ -49,7 +49,7 @@ function HeroBanner() {
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/engage/spheres-for-engaging">
           <InlineIcon icon="mdi:seedling"/>
-            <Translate> Find your Level of Engagement</Translate>
+            <Translate> Do something</Translate>
           </Link>
           <Link className="button button--secondary button-outline" to="/resources/overview">
           <InlineIcon icon="bx:bxs-heart"/>
@@ -103,7 +103,7 @@ function VideoContainer() {
         {/* <div className="col"> */}
  {/* <div className={styles.video-container}>*/}
           <Heading as="h2" >
-            <Translate>Hear from Lisa what Convergent Facilitation is all about</Translate>
+            <Translate>Hear from Lisa why bother learning Convergent Facilitation</Translate>
           </Heading>
           <div className="video-container">
             <LiteYouTubeEmbed
@@ -128,7 +128,7 @@ function FeaturesContainer() {
   return (
     <div className="container text--center">
       <Heading as="h2">
-        <Translate>What makes Convergent Facilition powerful</Translate>
+        <Translate>What makes Convergent Facilitation powerful</Translate>
       </Heading>
       <div className="row margin-bottom--lg">
         {firstRow.map((feature, idx) => (
@@ -185,8 +185,9 @@ export default function Home(): JSX.Element {
       <main>
         <HeroBanner />
           <div className={styles.section}>
+                      <FeaturesContainer />
+
             <VideoContainer />
-            <FeaturesContainer />
         </div>
              <QuotesSection />
       </main>

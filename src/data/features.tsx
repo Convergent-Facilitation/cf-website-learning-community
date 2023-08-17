@@ -24,7 +24,7 @@ const FEATURES: FeatureItem[] = [
 
   {
     title: translate({
-      message: 'Inviting dissent',
+      message: 'Dig Deep',
       id: 'homepage.features.ready-for-translations.title',
     }),
     image: {
@@ -41,7 +41,7 @@ const FEATURES: FeatureItem[] = [
   },
   {
     title: translate({
-      message: 'Creating shifts',
+      message: 'Resolve the Crisis of Imagination',
       id: 'homepage.features.document-versioning.title',
     }),
     image: {
@@ -58,7 +58,7 @@ const FEATURES: FeatureItem[] = [
   },
   {
     title: translate({
-      message: 'Liberating',
+      message: 'Experience Community',
       id: 'homepage.features.content-search.title',
     }),
     image: {
@@ -75,7 +75,7 @@ const FEATURES: FeatureItem[] = [
   },
   {
     title: translate({
-      message: 'Engaging with power differences',
+      message: 'Resolve Complex Puzzles Together',
       id: 'homepage.features.powered-by-mdx.title',
     }),
     image: {
@@ -92,7 +92,7 @@ const FEATURES: FeatureItem[] = [
   },
   {
     title: translate({
-      message: 'Deciding locally and globally',
+      message: "Build Confidence",
       id: 'homepage.features.built-using-react.title',
     }),
     image: {
