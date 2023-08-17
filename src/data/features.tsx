@@ -34,9 +34,9 @@ const FEATURES: FeatureItem[] = [
     },
     text: (
       <Translate id="homepage.features.ready-for-translations.text">
-        Rather than pressing for agreement, we are encouraging
-        participants to bring their concerns to create a resilient decision that everyone is willing
-        to follow.</Translate>
+        How often in our daily lives do we manage to talk about things 
+        that matter a lot and not end up in an argument? In a CF process, 
+        we have rich and complex conversations and we stay together</Translate>
     ),
   },
   {
