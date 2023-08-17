@@ -28,7 +28,7 @@ const FEATURES: FeatureItem[] = [
       id: 'homepage.features.ready-for-translations.title',
     }),
     image: {
-      src: '/img/undraw_faq_re_31cw.svg',
+      src: '/img/dig_deep.png',
       width: 1137,
       height: 776.59,
     },
@@ -45,7 +45,7 @@ const FEATURES: FeatureItem[] = [
       id: 'homepage.features.document-versioning.title',
     }),
     image: {
-      src: '/img/undraw_modern_art_re_pff5.svg',
+      src: '/img/crisis_imagination.png',
       width: 1038.23,
       height: 693.31,
     },
@@ -62,7 +62,7 @@ const FEATURES: FeatureItem[] = [
       id: 'homepage.features.content-search.title',
     }),
     image: {
-      src: '/img/undraw_walking_outside_re_56xo.svg',
+      src: '/img/experience_community.png',
       width: 1137.97,
       height: 736.21,
     },
