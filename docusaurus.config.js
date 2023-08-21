@@ -147,7 +147,7 @@ docsPluginId: 'resources',
                {label: 'Engage',
            type: 'doc',
            position: 'right',
-           docId: 'spheres-for-engaging'},
+           docId: 'what-can-you-do'},
      {
               href: 'https://www.hylo.com/groups/convergent-facilitation',
               position: 'right',
