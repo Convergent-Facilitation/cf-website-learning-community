@@ -45,7 +45,7 @@ const FEATURES: FeatureItem[] = [
       id: 'homepage.features.document-versioning.title',
     }),
     image: {
-      src: '/img/crisis_imagination.png',
+      src: '/img/resolve_crisis_imagination_green_creature.png',
       width: 1038.23,
       height: 693.31,
     },
