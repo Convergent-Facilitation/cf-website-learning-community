@@ -36,7 +36,7 @@ const FEATURES: FeatureItem[] = [
       <Translate id="homepage.features.ready-for-translations.text">
         How often in our daily lives do we manage to talk about things 
         that matter a lot and not end up in an argument? In a CF process, 
-        we have rich and complex conversations and we stay together</Translate>
+        we have rich and complex conversations and we stay together.</Translate>
     ),
   },
   {
@@ -51,8 +51,7 @@ const FEATURES: FeatureItem[] = [
     },
     text: (
       <Translate id="homepage.features.document-versioning.text">
-        By connecting to why others want something and co-holding everyone's needs in the process people shift in what is important to them.
-
+        How often do we experience hope that another world is indeed possible? CF reconnects us with our innate and time immemorial capacity to resolve complex problems with ingenuity and in partnership with life.
       </Translate>
     ),
   },
@@ -68,8 +67,7 @@ const FEATURES: FeatureItem[] = [
     },
     text: (
       <Translate id="homepage.features.content-search.text">
-        Get to experience that there is a world beyond either/or, in which someone has to give up on what
-        is important to them so that others can get what they want—we are creating win-win situation through integration.
+        We meet for several meetings, engage in deep conversation, laugh and listen to each other intently, hold difficult dilemmas together and sometimes even tie bounds of friendship with people we never knew we could have a conversation with.
       </Translate>
     ),
   },
@@ -85,8 +83,7 @@ const FEATURES: FeatureItem[] = [
     },
     text: (
       <Translate id="homepage.features.powered-by-mdx.text">
-        Power differences easily interfere with collaboration. Convergent Facilitation directly
-        engages with them instead of avoiding them.
+        Is there anything more exhilarating than working with a group of = people to resolve a complex problem? Participants in CF processes tell us how much they enjoy coming together because the pace, quality of listening and creativity combined make magic happen.
       </Translate>
     ),
   },
@@ -102,8 +99,7 @@ const FEATURES: FeatureItem[] = [
     },
     text: (
       <Translate id="homepage.features.built-using-react.text">
-        Focusing on hearing every need, not every voice,
-        Convergent Facilitation it a powerful tool to create co-held decision from small to very large groups.
+        When we experience that our contribution is important regardless where we are placed on the “map of power”, we regain confidence in our ability to influence decisions that impact us, and in humanity’s capacity to manage its affairs for the benefits of the whole.
       </Translate>
     ),
   },
