@@ -302,6 +302,8 @@ docsPluginId: 'resources',
       {
         path: 'resources',
         routeBasePath: 'resources',
+         editUrl:
+            'https://github.com/Convergent-Facilitation/cf-website/tree/main/',
         id: 'resources',
         sidebarPath: require.resolve('./sidebars.js'),
 
