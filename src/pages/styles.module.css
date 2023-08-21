@@ -117,7 +117,7 @@ html[data-theme='dark'] .topBannerTitleText {
 
 .heroProjectTagline {
   color: #000000;
-  font-size: 70px;
+  font-size: 60px;
   margin: 0;
 }
 
@@ -158,7 +158,7 @@ html[data-theme='dark'] .topBannerTitleText {
   animation-duration: 4s;
   animation-name: jack-in-the-box;
   float: right;
-  margin-top: -70px;
+  margin-top: -100px;
   padding: 0 20px 20px;
   height: auto;
 }

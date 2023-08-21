@@ -25,10 +25,10 @@ function HeroBanner() {
       <div className={styles.heroInner}>
         <Heading as="h1" className={styles.heroProjectTagline}>
           <img
-            alt={translate({message: 'Faces of many colors'})}
+            alt={translate({message: 'Colorfull dots that form an arrow'})}
             className={styles.heroLogo}
-            src={useBaseUrl('/img/earth_water_color.png')}
-            width="550"
+            src={useBaseUrl('/img/mess-to-arrow-scattered.webp')}
+            width="700"
             height="550"
           />
           <span
@@ -47,7 +47,7 @@ function HeroBanner() {
         </Heading>
         <p className={styles.heroProjectSubtitle}> Bring people together across differences within a facilitated decision making process and find creative and nuanced solutions that work for everyone.</p>
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/engage/spheres-for-engaging">
+          <Link className="button button--primary" to="/engage/what-can-you-do">
           <InlineIcon icon="mdi:seedling"/>
             <Translate> Do something</Translate>
           </Link>

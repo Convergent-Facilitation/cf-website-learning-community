@@ -28,7 +28,7 @@ const FEATURES: FeatureItem[] = [
       id: 'homepage.features.ready-for-translations.title',
     }),
     image: {
-      src: '/img/dig_deep.png',
+      src: '/img/dig_deep_blue_dot_creature_small.png',
       width: 1137,
       height: 776.59,
     },
