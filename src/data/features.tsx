@@ -77,7 +77,7 @@ const FEATURES: FeatureItem[] = [
       id: 'homepage.features.powered-by-mdx.title',
     }),
     image: {
-      src: '/img/undraw_team_work_k-80-m.svg',
+      src: '/img/solve_complex_puzzle_little_creatures.png',
       width: 1009.54,
       height: 717.96,
     },
@@ -93,7 +93,7 @@ const FEATURES: FeatureItem[] = [
       id: 'homepage.features.built-using-react.title',
     }),
     image: {
-      src: '/img/undraw_world_re_768g.svg',
+      src: '/img/build_confidence_yellow_creatures.png',
       width: 1108,
       height: 731.18,
     },
