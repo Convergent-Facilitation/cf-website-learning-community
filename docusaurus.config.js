@@ -166,20 +166,20 @@ docsPluginId: 'resources',
               title: 'Learn',
               items: [
                 {
-                  label: 'Get started',
-                  to: 'docs',
+                  label: 'Spheres of Engagement',
+                  to: '/engage/what-can-you-do',
                 },
                 {
                   label: 'Events',
-                  to: 'docs/installation',
+                  to: 'events',
                 },
                 {
-                  label: 'Learning Community on Hylo',
-                  to: 'docs/migration',
+                  label: 'Co-Create on Hylo',
+                  to: '/engage/apply-and-apprentice/join-hylo',
                 },
                 {
-                  label: 'Peer groups',
-                  to: '/'
+                  label: 'Practice groups',
+                  to: '/engage/experience-and-embody/practice-groups'
                 }
               ],
             },
@@ -188,19 +188,19 @@ docsPluginId: 'resources',
               items: [
                 {
                   label: 'Book: The Highest Common Denominator',
-                  href: '/',
+                  href: '/resources/the-book',
                 },
                 {
-                  label: 'Recordings',
-                  to: '/feature-requests',
+                  label: 'Recordings Coaching Calls',
+                  to: '/resources/recordings-coaching-calls/overview-coaching-call-recordings',
                 },
                 {
                   label: 'Case Studies',
-                  href: '/',
+                  href: '/resources/case-studies',
                 },
                 {
                   label: 'CF Facilitators',
-                  to: '/',
+                  to: '/about#who-we-are',
                 }
               ],
             },
@@ -213,11 +213,7 @@ docsPluginId: 'resources',
                 },
                 {
                   label: 'Newsletter',
-                  to: '/changelog',
-                },
-                {
-                  label: 'Telegram Channel',
-                  href: 'https://github.com/facebook/docusaurus',
+                  to: '/contact#stay-in-the-loop',
                 },
                 {
                   label: 'NGL Community',
@@ -225,11 +221,11 @@ docsPluginId: 'resources',
                 },
                 {
                   label: 'Contact',
-                  href: 'https://nglcommunity.org',
+				  to: '/contact',
                 },
                 {
                   label: 'Give',
-                  to: '/'
+                  to: '/give'
                 }
 
               //   {
@@ -242,16 +238,16 @@ docsPluginId: 'resources',
               ],
             },
             {
-              title: 'Legal',
+              title: 'Legal (needed?)',
               // Please don't remove the privacy and terms, it's a legal
               // requirement.
               items: [
                 {
-                  label: 'Privacy',
+                  label: 'Privacy (needed?)',
                   href: '/',
                 },
                 {
-                  label: 'Terms',
+                  label: 'Terms (needed?)',
                   href: '/',
                 },
                 {
@@ -262,11 +258,11 @@ docsPluginId: 'resources',
             },
           ],
           "logo": {
-            "alt": "Convergent Facilitation Logo",
-            "src": "/img/convergentfacilitation_logo.png",
+            "alt": "Nonviolent Global Liberation Community Logo",
+            "src": "/img/ngl-logo-white.webp",
             "href": "https://nglcommunity.org"
           },
-          copyright: `Copyright © ${new Date().getFullYear()} Nonviolent Global Liberation Community. Built with Docusaurus.`,
+          copyright: `Nonviolent Global Liberation Community ${new Date().getFullYear()}. Built with Docusaurus.`,
 
 
       },
