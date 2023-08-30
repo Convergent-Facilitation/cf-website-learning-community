@@ -27,7 +27,7 @@ function HeroBanner() {
           <img
             alt={translate({message: 'Colorfull dots that form an arrow'})}
             className={styles.heroLogo}
-            src={useBaseUrl('/img/mess-to-arrow-scattered.webp')}
+            src={useBaseUrl('/img/mess-to-arrow-full-colors.webp')}
             width="700"
             height="550"
           />
@@ -52,7 +52,7 @@ function HeroBanner() {
             <Translate> Grow your CF Skills</Translate>
           </Link>
           <Link className="button button--secondary button-outline" to="/about">
-          <InlineIcon icon="raphael:question"/>
+          <InlineIcon icon="mingcute:arrow-up-fill"/>
             <Translate> How can CF support you?</Translate>
           </Link>
 
@@ -68,7 +68,7 @@ function QuotesSection() {
       <div className="container">
       <Heading as="h2" >
             <Translate>What people say about Convergent Facilitation</Translate>
-          </Heading>
+      </Heading>
         <div className="row">
           {Quotes.map((quote) => (
             <div className="col" key={quote.name}>
@@ -91,6 +91,12 @@ function QuotesSection() {
           ))}
         </div>
       </div>
+  <div className="container text--center margin-bottom--x1">
+          <Link className="button button--secondary button-outline " to="/about#testimonials">
+          <InlineIcon icon="fa6-solid:hand-point-right"/>
+            <Translate> Learn more about CF</Translate>
+          </Link>
+    </div>
     </div>
   );
 }
@@ -98,9 +104,6 @@ function QuotesSection() {
 function VideoContainer() {
   return (
   <div className="container text--center margin-bottom--x1">
-      {/* <div className="row"> */}
-        {/* <div className="col"> */}
- {/* <div className={styles.video-container}>*/}
           <Heading as="h2" >
             <Translate>Hear from Lisa why bother learning Convergent Facilitation</Translate>
           </Heading>
@@ -112,9 +115,11 @@ function VideoContainer() {
               poster="maxresdefault"
               webp
             />
-       {/*     </div>*/}
-        {/* </div> */}
-        {/* </div> */}
+			<br/>
+          <Link className="button button--primary button-outline" to="/engage/what-can-you-do">
+          <InlineIcon icon="fa6-solid:hand-point-right"/>
+            <Translate> Start learning CF now</Translate>
+          </Link>
       </div>
     </div>
   );
