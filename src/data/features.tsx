@@ -35,7 +35,7 @@ const FEATURES: FeatureItem[] = [
     text: (
       <Translate id="homepage.features.ready-for-translations.text">
         How often in our daily lives do we manage to talk about things 
-        that matter a lot and not end up in an argument? In a CF process, 
+        that matter a lot and not end up in an argument? In a Convergent Facilitation process, 
         we have rich and complex conversations and we stay together.</Translate>
     ),
   },
@@ -51,13 +51,13 @@ const FEATURES: FeatureItem[] = [
     },
     text: (
       <Translate id="homepage.features.document-versioning.text">
-        How often do we experience hope that another world is indeed possible? CF reconnects us with our innate and time immemorial capacity to resolve complex problems with ingenuity and in partnership with life.
+        How often do we experience hope that another world is indeed possible? Convergent Facilitation reconnects us with our innate and time immemorial capacity to resolve complex problems in partnership with life.
       </Translate>
     ),
   },
   {
     title: translate({
-      message: 'Experience Community',
+      message: 'Connect and Experience Togetherness',
       id: 'homepage.features.content-search.title',
     }),
     image: {
@@ -83,7 +83,7 @@ const FEATURES: FeatureItem[] = [
     },
     text: (
       <Translate id="homepage.features.powered-by-mdx.text">
-        Is there anything more exhilarating than working with a group of = people to resolve a complex problem? Participants in CF processes tell us how much they enjoy coming together because the pace, quality of listening and creativity combined make magic happen.
+        Convergent Facilitation is rigourous, can take time and asks for significant commitment on the part of participants and facilitators. When we land on a solution that works for everyone however, there can be immense satisfaction to have resolved a complex puzzle together.
       </Translate>
     ),
   },
