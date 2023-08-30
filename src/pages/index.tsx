@@ -49,11 +49,11 @@ function HeroBanner() {
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/engage/what-can-you-do">
           <InlineIcon icon="mdi:seedling"/>
-            <Translate> Become a Facilitator</Translate>
+            <Translate> Grow your CF Skills</Translate>
           </Link>
-          <Link className="button button--secondary button-outline" to="/resources/overview">
-          <InlineIcon icon="clarity:process-on-vm-line"/>
-            <Translate> Learn more about the Process</Translate>
+          <Link className="button button--secondary button-outline" to="/about">
+          <InlineIcon icon="raphael:question"/>
+            <Translate> How can CF support you?</Translate>
           </Link>
 
         </div>
