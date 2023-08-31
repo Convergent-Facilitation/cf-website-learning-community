@@ -44,6 +44,7 @@ export default function GcalEvents(): JSX.Element {
 
     return (
 
+
           <FullCalendar
 //             plugins={[googleCalendarPlugin, dayGridPlugin, timeGridPlugin, interactionPlugin, listPlugin]}
               plugins={[ googleCalendarPlugin, listPlugin]}

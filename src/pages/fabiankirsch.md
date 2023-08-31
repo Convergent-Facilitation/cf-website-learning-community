@@ -1,2 +1,0 @@
-# some heading
-some text
