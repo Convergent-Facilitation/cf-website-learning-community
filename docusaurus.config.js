@@ -120,27 +120,6 @@ docsPluginId: 'resources',
           type: 'search',
           position: 'right',
         },
-
-
-//         {
-//               type: 'localeDropdown',
-//               position: 'right',
-//               dropdownItemsAfter: [
-//                 {
-//                   type: 'html',
-//                   value: '<hr style="margin: 0.3rem 0;">',
-//                 },
-//                 {
-//                   href: 'https://github.com/facebook/docusaurus/issues/3526',
-//                   label: 'Help Us Translate',
-//                 },
-//           {
-//             type: 'docSidebar',
-//             sidebarId: 'tutorialSidebar',
-//             position: 'left',
-//             label: 'Tutorial',
-//           },
-//           {to: '/blog', label: 'Blog', position: 'left'},
                {label: 'Give',to: '/give', position: 'right'},
 
 
@@ -154,8 +133,6 @@ docsPluginId: 'resources',
               className: 'header-hylo-link',
               'aria-label': 'Hylo Group',
             },
-
-
 
         ],
       },
