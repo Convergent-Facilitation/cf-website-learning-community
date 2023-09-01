@@ -1,31 +1,29 @@
-import React from 'react';
-import clsx from 'clsx';
-import LiteYouTubeEmbed from 'react-lite-youtube-embed';
-import Link from '@docusaurus/Link';
-import Translate, {translate} from '@docusaurus/Translate';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl, {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
+import React from 'react'
+import clsx from 'clsx'
+import LiteYouTubeEmbed from 'react-lite-youtube-embed'
+import Link from '@docusaurus/Link'
+import Translate, { translate } from '@docusaurus/Translate'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import useBaseUrl, { useBaseUrlUtils } from '@docusaurus/useBaseUrl'
 
-import Features, {type FeatureItem} from '@site/src/data/features';
-import Quotes from '@site/src/data/quotes';
-
+import Features, { type FeatureItem } from '@site/src/data/features'
+import Quotes from '@site/src/data/quotes'
 
 // import styles from './index.module.css';
-import styles from './styles.module.css';
-import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
-import Layout from '@theme/Layout';
-import Heading from '@theme/Heading';
-import Image from '@theme/IdealImage';
-import { InlineIcon,Icon } from '@iconify/react'; // Import the entire Iconify library.
+import styles from './styles.module.css'
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
+import Layout from '@theme/Layout'
+import Heading from '@theme/Heading'
+import Image from '@theme/IdealImage'
+import { InlineIcon, Icon } from '@iconify/react' // Import the entire Iconify library.
 
-
-function HeroBanner() {
+function HeroBanner () {
   return (
     <div className={styles.hero} data-theme="light">
       <div className={styles.heroInner}>
         <Heading as="h1" className={styles.heroProjectTagline}>
           <img
-            alt={translate({message: 'Colorfull dots that form an arrow'})}
+            alt={translate({ message: 'Colorfull dots that form an arrow' })}
             className={styles.heroLogo}
             src={useBaseUrl('/img/mess-to-arrow-full-colors.webp')}
             width="700"
@@ -40,8 +38,8 @@ function HeroBanner() {
                 message:
                   '<b>Getting out of the mess we are in</b> <br> together',
                 description:
-                  'Home page hero title, can contain simple html tags',
-              }),
+                  'Home page hero title, can contain simple html tags'
+              })
             }}
           />
         </Heading>
@@ -58,10 +56,10 @@ function HeroBanner() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-function QuotesSection() {
+function QuotesSection () {
   return (
       <div className="container text--center">
       <Heading as="h1" >
@@ -75,7 +73,7 @@ function QuotesSection() {
                   alt={quote.name}
                   className="avatar__photo avatar__photo--xl"
                   img={quote.thumbnail}
-                  style={{overflow: 'hidden'}}
+                  style={{ overflow: 'hidden' }}
                 />
                 <div className="avatar__intro padding-top--sm">
                   <div className="avatar__name">{quote.name}</div>
@@ -95,10 +93,10 @@ function QuotesSection() {
           </Link>
     </div>
     </div>
-  );
+  )
 }
 
-function VideoContainer() {
+function VideoContainer () {
   return (
   <div className="container text--center margin-bottom--x1">
           <Heading as="h1" >
@@ -119,12 +117,12 @@ function VideoContainer() {
           </Link>
       </div>
     </div>
-  );
+  )
 }
 
-function FeaturesContainer() {
-  const firstRow = Features.slice(0, 3);
-  const secondRow = Features.slice(3);
+function FeaturesContainer () {
+  const firstRow = Features.slice(0, 3)
+  const secondRow = Features.slice(3)
 
   return (
     <div className="container text--center">
@@ -146,17 +144,17 @@ function FeaturesContainer() {
         ))}
       </div>
     </div>
-  );
+  )
 }
 
-function Feature({
+function Feature ({
   feature,
-  className,
+  className
 }: {
-  feature: FeatureItem;
-  className?: string;
+  feature: FeatureItem
+  className?: string
 }) {
-  const {withBaseUrl} = useBaseUrlUtils();
+  const { withBaseUrl } = useBaseUrlUtils()
 
   return (
     <div className={clsx('col', className)}>
@@ -173,14 +171,14 @@ function Feature({
       </Heading>
       <p className="padding-horiz--md">{feature.text}</p>
     </div>
-  );
+  )
 }
 
-export default function Home(): JSX.Element {
+export default function Home (): JSX.Element {
   const {
-    siteConfig: {customFields, tagline},
-  } = useDocusaurusContext();
-  const {description} = customFields as {description: string};
+    siteConfig: { customFields, tagline }
+  } = useDocusaurusContext()
+  const { description } = customFields as { description: string }
   return (
     <Layout title={tagline} description={description}>
       <main>
@@ -199,5 +197,5 @@ export default function Home(): JSX.Element {
         </div>
       </main>
     </Layout>
-  );
+  )
 }
