@@ -52,7 +52,6 @@ function HeroBanner() {
             <Translate> Grow your CF Skills</Translate>
           </Link>
           <Link className="button button--secondary button-outline" to="/about">
-          <InlineIcon icon="mingcute:arrow-up-fill"/>
             <Translate> How can CF support you?</Translate>
           </Link>
 
@@ -64,9 +63,8 @@ function HeroBanner() {
 
 function QuotesSection() {
   return (
-    <div className={clsx(styles.section)}>
-      <div className="container">
-      <Heading as="h2" >
+      <div className="container text--center">
+      <Heading as="h1" >
             <Translate>What people say about Convergent Facilitation</Translate>
       </Heading>
         <div className="row">
@@ -89,10 +87,9 @@ function QuotesSection() {
               </p>
             </div>
           ))}
-        </div>
       </div>
   <div className="container text--center margin-bottom--x1">
-          <Link className="button button--secondary button-outline " to="/about#testimonials">
+          <Link className="button button--secondary button-outline " to="/about">
           <InlineIcon icon="fa6-solid:hand-point-right"/>
             <Translate> Learn more about CF</Translate>
           </Link>
@@ -104,7 +101,7 @@ function QuotesSection() {
 function VideoContainer() {
   return (
   <div className="container text--center margin-bottom--x1">
-          <Heading as="h2" >
+          <Heading as="h1" >
             <Translate>Hear from Lisa why bother learning Convergent Facilitation</Translate>
           </Heading>
           <div className="video-container">
@@ -131,7 +128,7 @@ function FeaturesContainer() {
 
   return (
     <div className="container text--center">
-      <Heading as="h2">
+      <Heading as="h1">
         <Translate>What makes Convergent Facilitation powerful</Translate>
       </Heading>
       <div className="row margin-bottom--lg">
@@ -189,11 +186,17 @@ export default function Home(): JSX.Element {
       <main>
         <HeroBanner />
           <div className={styles.section}>
-                      <FeaturesContainer />
 
+          <div className={styles.section}>
+            <FeaturesContainer />
+        </div>
+          <div className={styles.section}>
             <VideoContainer />
         </div>
-             <QuotesSection />
+          <div className={styles.section}>
+            <QuotesSection />
+        </div>
+        </div>
       </main>
     </Layout>
   );
