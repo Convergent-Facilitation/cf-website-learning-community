@@ -50,7 +50,7 @@ function HeroBanner () {
           <InlineIcon icon="mdi:seedling"/>
             <Translate> Engage in your way</Translate>
           </Link>
-          <Link className="button button--secondary button-outline" to="/about">
+          <Link className="button button--secondary button-outline" to="/contact#stay-in-the-loop-with-our-newsletters">
           <InlineIcon icon="mdi:loop"/>
             <Translate> Stay in the loop</Translate>
           </Link>
