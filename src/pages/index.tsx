@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link'
 import Translate, { translate } from '@docusaurus/Translate'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import useBaseUrl, { useBaseUrlUtils } from '@docusaurus/useBaseUrl'
+import GcalEvents from '@site/src/components/Events'
 
 import Features, { type FeatureItem } from '@site/src/data/features'
 import Quotes from '@site/src/data/quotes'
@@ -25,7 +26,7 @@ function HeroBanner () {
           <img
             alt={translate({ message: 'Colorfull dots that form an arrow' })}
             className={styles.heroLogo}
-            src={useBaseUrl('/img/mess-to-arrow-full-colors.webp')}
+            src={useBaseUrl('/img/reweaving-main-image-web.png')}
             width="700"
             height="550"
           />
@@ -36,21 +37,22 @@ function HeroBanner () {
               __html: translate({
                 id: 'homepage.hero.title',
                 message:
-                  '<b>Getting out of the mess we are in</b> <br> together',
+                  'Join us in <br/><b>Reweaving Humanity</b>',
                 description:
                   'Home page hero title, can contain simple html tags'
               })
             }}
           />
         </Heading>
-        <p className={styles.heroProjectSubtitle}> Bring people together across differences within a facilitated decision making process and find creative and nuanced solutions that work for everyone.</p>
+        <p className={styles.heroProjectSubtitle}> Join our collaborative community of learners, practioners and providers to build capacity for integrative decision making across the globe.</p>
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/engage/what-can-you-do">
           <InlineIcon icon="mdi:seedling"/>
-            <Translate> Grow your CF Skills</Translate>
+            <Translate> Engage in your way</Translate>
           </Link>
           <Link className="button button--secondary button-outline" to="/about">
-            <Translate> How can CF support you?</Translate>
+          <InlineIcon icon="mdi:loop"/>
+            <Translate> Stay in the loop</Translate>
           </Link>
 
         </div>
@@ -98,7 +100,7 @@ function QuotesSection () {
 
 function VideoContainer () {
   return (
-  <div className="container text--center margin-bottom--x1">
+  <div className="container text--center">
           <Heading as="h1" >
             <Translate>Hear from Lisa why bother learning Convergent Facilitation</Translate>
           </Heading>
@@ -110,11 +112,6 @@ function VideoContainer () {
               poster="maxresdefault"
               webp
             />
-			<br/>
-          <Link className="button button--primary button-outline" to="/engage/what-can-you-do">
-          <InlineIcon icon="fa6-solid:hand-point-right"/>
-            <Translate> Start learning CF now</Translate>
-          </Link>
       </div>
     </div>
   )
@@ -184,18 +181,32 @@ export default function Home (): JSX.Element {
       <main>
         <HeroBanner />
           <div className={styles.section}>
-
-          <div className={styles.section}>
-            <FeaturesContainer />
-        </div>
-          <div className={styles.section}>
             <VideoContainer />
         </div>
+          <div className="container text--center margin-botton--x1 gcal-events">
           <div className={styles.section}>
-            <QuotesSection />
+			  <Heading as="h1" >
+				<Translate>Community Calendar</Translate>
+			  </Heading>
+			<p> The events below are a mixture of events offered by CF providers as well as community sourced events. Find out how <i>you</i> can contribute events to our community calendar: Collaborative Community Platform Hylo. </p>
+              <GcalEvents />
+        </div>
+          <div className={styles.section}>
+			  <Heading as="h1" >
+				<Translate>Our Global Co-Creation Community on Hylo</Translate>
+
+			  </Heading>
+
+          <img
+            alt="map of locations of community members"
+            src="/img/hylo-community-map.png"
+          />
+<p> Find out how to join us on Hylo: 👉 <a href="/engage/platforms-and-co-creation/co-create-on-hylo"> Engage / Co-Create with us on Hylo</a></p>
         </div>
         </div>
       </main>
     </Layout>
   )
 }
+
+

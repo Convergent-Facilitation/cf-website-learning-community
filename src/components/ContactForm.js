@@ -86,7 +86,7 @@ const ContactForm = () => {
           className="button button--primary"
           type="submit"
         >
-          Send a message
+          Send us a message
         </button>
       </div>
 

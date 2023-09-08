@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Convergent Facilitation',
-  tagline: 'Getting Out of the Mess We Are in Together',
-  favicon: 'img/cf-logo-hcd-arrow.webp',
+  tagline: 'Join us in Growing our collective Convergent Facilitation Capacity',
+  favicon: 'img/convergentfacilitation_logo.png',
 
   // Set the production url of your site here
   url: 'https://convergentfacilitation.netlify.app',
@@ -99,13 +99,18 @@ const config = {
       },
       navbar: {
         hideOnScroll: false,
-        title: 'Convergent Facilitation',
+        title: 'CF Co-Creation Community',
         logo: {
           alt: 'Convergent Facilitation Logo',
-          src: 'img/cf-logo-hcd-arrow.webp'
+          src: 'img/convergentfacilitation_logo.png'
         },
         items: [
-          { label: 'About', to: 'about', position: 'left' },
+          {
+            label: 'Engage',
+            type: 'doc',
+            position: 'left',
+            docId: 'what-can-you-do'
+          },
           {
             label: 'Resources',
             type: 'doc',
@@ -115,25 +120,18 @@ const config = {
           },
           { label: 'Blog', to: 'blog', position: 'left' },
           { label: 'Events', to: 'events', position: 'left' },
-          { label: 'Contact', to: 'contact', position: 'left' },
           {
             type: 'search',
             position: 'right'
           },
-          { label: 'Give', to: '/give', position: 'right' },
 
-          {
-            label: 'Engage',
-            type: 'doc',
-            position: 'right',
-            docId: 'what-can-you-do'
-          },
           {
             href: 'https://www.hylo.com/groups/convergent-facilitation',
             position: 'right',
             className: 'header-hylo-link',
             'aria-label': 'Hylo Group'
-          }
+          },
+	  { label: 'Connect', to: 'contact', position: 'right' },
 
         ]
       },

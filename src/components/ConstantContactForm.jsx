@@ -4,7 +4,13 @@ const ConstantContactForm = () => {
   return (
     <iframe
       src="/constant-contact-form.html"
-      style={{width: "100%", height: "600px", border: "none"}}
+      style={{display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  width: "50%",
+  height: "600px", 
+  textAlign: "center", 
+  border: "none", width: "50%", height: "600px", textAlign: "center", border: "none"}}
       title="Constant Contact Form"
     />
   );
