@@ -279,8 +279,22 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js')
 
       }
+    ],
+	[
+	'@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/offerings/nov-2021-cf-intensive-with-roni-and-magda', 
+            to: '/resources/recordings-courses-workshops/cf-intensive-magda-roni/',
+          },
+          {
+            from: '/2021-nov-intensive', 
+            to: '/resources/recordings-courses-workshops/cf-intensive-magda-roni/',
+          },
+        ],
+      },
     ]
-
   ]
 }
 
