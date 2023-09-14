@@ -37,7 +37,7 @@ function HeroBanner () {
               __html: translate({
                 id: 'homepage.hero.title',
                 message:
-                  'Join us in <br/><b>Reweaving Humanity</b>',
+                  '<b>Join us in <br>Co-Creating a</b> Global Learning Web</b>',
                 description:
                   'Home page hero title, can contain simple html tags'
               })
