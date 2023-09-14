@@ -188,10 +188,11 @@ html[data-theme='dark'] .topBannerTitleText {
 .indexCtas a:hover {
   /* color: black; */
   color:white;
+  margin-right: 30px;
+  margin-top: 24px;
 }
 
 .indexCtas a:last-of-type {
-  margin: 20px 36px;
 }
 
 .indexCtasGitHubButtonWrapper {
