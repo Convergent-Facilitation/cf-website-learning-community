@@ -58,6 +58,7 @@ export default function GcalEvents(): JSX.Element {
               right: 'today'
             }}
             initialView='listMonth'
+            expandRows={true}
       // other view-specific options here
 
 //             editable={true}
