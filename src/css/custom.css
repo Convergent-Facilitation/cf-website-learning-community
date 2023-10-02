@@ -46,8 +46,8 @@ h2 {
 .gcal-events {
   position: center;
   overflow: hidden;
-  width: 100%;
-  max-width: 600px;
+  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
