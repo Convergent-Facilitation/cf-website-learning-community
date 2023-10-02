@@ -47,7 +47,7 @@ h2 {
   position: center;
   overflow: hidden;
   width: 100%;
-  max-width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
