@@ -130,8 +130,9 @@ html[data-theme='dark'] .topBannerTitleText {
 
 .heroProjectTagline {
   color: #000000;
-  font-size: 60px;
+  font-size: 35px;
   margin: 0;
+  text-align: center;
 }
 
 .heroProjectSubtitle {

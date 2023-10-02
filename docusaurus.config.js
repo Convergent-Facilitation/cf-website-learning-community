@@ -94,11 +94,11 @@ const config = {
       },
       announcementBar: {
         id: 'announcementBar-2', // Increment on change
-        content: '⭐️ Welcome to our new Convergent Facilitation website! Read more about it in our blogpost: <a target="_blank" rel="noopener noreferrer" href="/blog/welcome"><i>Find your Way to Engage</i></a> ⭐️'
+        content: '⭐️ Welcome to our new Convergent Facilitation website! Get started: <a target="_blank" rel="noopener noreferrer" href="/engage/what-can-you-do"><i>What can you do?</i></a> ⭐️'
       },
       navbar: {
         hideOnScroll: false,
-        title: 'CF Co-Creation Community',
+        title: 'CF Capacity Building',
         logo: {
           alt: 'Convergent Facilitation Logo',
           src: 'img/convergentfacilitation_logo.png'
