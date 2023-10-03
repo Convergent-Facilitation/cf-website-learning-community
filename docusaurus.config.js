@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Convergent Facilitation',
-  tagline: 'Join us in Growing our collective Convergent Facilitation Capacity',
+  tagline: 'Grow Global Convergent Facilitation Capacity in Community',
   favicon: 'img/convergentfacilitation_logo.png',
 
   // Set the production url of your site here
@@ -98,7 +98,7 @@ const config = {
       },
       navbar: {
         hideOnScroll: false,
-        title: 'CF Capacity Building',
+        title: 'Growing CF Capacity',
         logo: {
           alt: 'Convergent Facilitation Logo',
           src: 'img/convergentfacilitation_logo.png'
