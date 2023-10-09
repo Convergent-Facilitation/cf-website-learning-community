@@ -119,6 +119,7 @@ const config = {
           },
           { label: 'Blog', to: 'blog', position: 'left' },
           { label: 'Events', to: 'events', position: 'left' },
+          { label: 'Coaching Calls', to: 'coaching-calls', position: 'left' },
           {
             type: 'search',
             position: 'right'
