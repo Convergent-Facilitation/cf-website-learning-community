@@ -35,9 +35,9 @@ import styles from './styles.module.css';
 
 const TITLE = translate({message: 'Recordings of Convergent Facilitation Coaching Calls'});
 const DESCRIPTION = translate({
-  message: 'List of websites people are building with Docusaurus',
+  message: 'Coaching calls are at the core of how we build capacity. Look at the calendar to find out when the next is going to happen or learn how you can request and schedule one yourself!',
 });
-const SUBMIT_URL = 'https://github.com/facebook/docusaurus/discussions/7826';
+const SUBMIT_URL = 'engage/apply-and-apprentice/ask-for-coaching';
 
 type UserState = {
   scrollTopPosition: number;
@@ -129,7 +129,7 @@ function ShowcaseHeader() {
         target="_blank"
         rel="noreferrer">
         <Translate id="showcase.header.button">
-          🙏 Please add your site
+         Request a coaching call
         </Translate>
       </a>
     </section>
@@ -226,7 +226,7 @@ function SearchBar() {
       <input
         id="searchbar"
         placeholder={translate({
-          message: 'Search for site name...',
+          message: 'Search for coaching calls ...',
           id: 'showcase.searchBar.placeholder',
         })}
         value={value ?? undefined}
@@ -300,7 +300,7 @@ function ShowcaseCards() {
           </div>
           <div className="container margin-top--lg">
             <h2 className={styles.showcaseHeader}>
-              <Translate id="showcase.usersList.allUsers">All sites</Translate>
+              <Translate id="showcase.usersList.allUsers">All Coaching Calls</Translate>
             </h2>
             <ul className={clsx('clean-list', styles.showcaseList)}>
               {otherUsers.map((user) => (
