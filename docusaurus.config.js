@@ -98,7 +98,7 @@ const config = {
       },
       navbar: {
         hideOnScroll: false,
-        title: 'Growing CF Capacity',
+        title: 'Convergent Facilitation Learning Web',
         logo: {
           alt: 'Convergent Facilitation Logo',
           src: 'img/convergentfacilitation_logo.png'
@@ -110,16 +110,11 @@ const config = {
             position: 'left',
             docId: 'what-can-you-do'
           },
-          {
-            label: 'Resources',
-            type: 'doc',
-            docsPluginId: 'resources',
-            position: 'left',
-            docId: 'overview'
-          },
           { label: 'Blog', to: 'blog', position: 'left' },
           { label: 'Events', to: 'events', position: 'left' },
           { label: 'Coaching Calls', to: 'coaching-calls', position: 'left' },
+          { label: 'Courses', to: 'courses', position: 'left' },
+          { label: 'Materials', to: 'Materials', position: 'left' },
           {
             type: 'search',
             position: 'right'
