@@ -27,7 +27,7 @@ function HeroBanner () {
             alt={translate({ message: 'Colorfull dots that form an arrow' })}
             className={styles.heroLogo}
             src={useBaseUrl('/img/reweaving-main-image-web.png')}
-            width="700"
+            width="400"
             height="550"
           />
           <span
@@ -37,25 +37,18 @@ function HeroBanner () {
               __html: translate({
                 id: 'homepage.hero.title',
                 message:
-                  '<b>Join us in <br>Co-Creating a</b> Global Learning Web</b>',
+                  'Grow Global <b>Convergent Facilitation <br>Capacity</b> in Community</b>',
                 description:
                   'Home page hero title, can contain simple html tags'
               })
             }}
           />
         </Heading>
-        <p className={styles.heroProjectSubtitle}> Join our collaborative community of learners, practioners and providers to build capacity for integrative decision making across the globe.</p>
-        <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/engage/what-can-you-do">
-          <InlineIcon icon="mdi:seedling"/>
-            <Translate> Engage in your way</Translate>
-          </Link>
-          <Link className="button button--secondary button-outline" to="/contact#stay-in-the-loop-with-our-newsletters">
-          <InlineIcon icon="mdi:loop"/>
-            <Translate> Stay in the loop</Translate>
-          </Link>
 
-        </div>
+        <p className={styles.heroProjectSubtitle}> <b>Here for the first time?</b> 👉 Find out <b><a href='/engage/what-can-you-do'>What You Can Do 🌞🌱🌿🌳</a></b></p>
+
+        <p className={styles.heroProjectSubtitle}> <b>Wanting to stay in the loop?</b> 👉 Sign up to our <b><a href='/contact#stay-in-the-loop-with-our-newsletters'>Capacity-Growing Newsletter ✉️</a></b></p>
+
       </div>
     </div>
   )
@@ -180,30 +173,32 @@ export default function Home (): JSX.Element {
     <Layout title={tagline} description={description}>
       <main>
         <HeroBanner />
-          <div className={styles.section}>
-            <VideoContainer />
-        </div>
+          <div className="container margin-botton--x1">
+			  <div className={styles.section}>
+				  <Heading as="h1" >
+					<Translate>Community Calendar</Translate>
+				  </Heading>
+				<p>This calendar is co-created by the community—find out how: <a href='engage/platforms-and-co-creation/co-create-on-hylo'>Co-Create on Hylo</a>. Learn how you can receive email invites for new events: Receive Calendar Invites.</p>
           <div className="container text--center margin-botton--x1 gcal-events">
-          <div className={styles.section}>
-			  <Heading as="h1" >
-				<Translate>Community Calendar</Translate>
-			  </Heading>
-			<p> The events below are a mixture of events offered by CF providers as well as community sourced events. Find out how <i>you</i> can contribute events to our community calendar: Collaborative Community Platform Hylo. </p>
-              <GcalEvents />
-        </div>
+				  <GcalEvents />
+          </div>
+          </div>
           <div className={styles.section}>
 			  <Heading as="h1" >
 				<Translate>Our Global Co-Creation Community on Hylo</Translate>
 
 			  </Heading>
 
+<p>Below you see how our global community is distributed (updated Sep 2023). Explore the live map here: <a href='https://www.hylo.com/groups/convergent-facilitation/map?sortBy=updated&hide=discussion&hide=request&hide=offer&hide=resource&hide=project&hide=event&hide=group'>Hylo/Convergent Facilitation Group/Map</a>. If you are not part of our collaborative community space on Hylo find out how to join here: <a href='/engage/platforms-and-co-creation/co-create-on-hylo'>Co-Create on Hylo</a>.</p>
           <img
             alt="map of locations of community members"
             src="/img/hylo-community-map.png"
           />
-<p> Find out how to join us on Hylo: 👉 <a href="/engage/platforms-and-co-creation/co-create-on-hylo"> Engage / Co-Create with us on Hylo</a></p>
         </div>
         </div>
+          <div className={styles.section}>
+            <VideoContainer />
+		  </div>
       </main>
     </Layout>
   )

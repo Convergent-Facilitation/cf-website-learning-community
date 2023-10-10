@@ -117,8 +117,9 @@ html[data-theme='dark'] .topBannerTitleText {
 
 .hero {
   background-color: #ffffff;
-  padding: 48px;
+  margin-top: -50px;
   margin-bottom: 100px;
+  padding-left: 70px;
 }
 
 .heroInner {
@@ -132,7 +133,9 @@ html[data-theme='dark'] .topBannerTitleText {
   color: #000000;
   font-size: 35px;
   margin: 0;
-  text-align: center;
+  padding-top: 0;
+  padding-bottom: 60px;
+  text-align: left;
 }
 
 .heroProjectSubtitle {
@@ -172,7 +175,7 @@ html[data-theme='dark'] .topBannerTitleText {
   animation-duration: 4s;
   animation-name: jack-in-the-box;
   float: right;
-  margin-top: -100px;
+  margin-top: -50px;
   padding: 0 20px 20px;
   height: auto;
 }
