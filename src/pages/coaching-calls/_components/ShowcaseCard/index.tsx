@@ -4,7 +4,7 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-
+import LazyLoad from 'react-lazyload';
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
@@ -62,7 +62,9 @@ function ShowcaseCard({user}: {user: User}) {
   return (
     <li key={user.title} className="card shadow--md">
       <div className={clsx('card__image', styles.showcaseCardImage)}>
+	<LazyLoad height={200} offset={100}>
         <Image img={user.preview} alt={user.title} />
+</LazyLoad>
       </div>
       <div className="card__body">
         <div className={clsx(styles.showcaseCardHeader)}>

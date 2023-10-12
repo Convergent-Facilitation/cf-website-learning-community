@@ -9,6 +9,7 @@
 
 import {translate} from '@docusaurus/Translate';
 import {sortBy} from '@site/src/utils/jsUtils';
+import coachingCalls from './coachingCalls.json'
 
 /*
  * ADD YOUR SITE TO THE DOCUSAURUS SHOWCASE
@@ -60,7 +61,12 @@ export type TagType =
 
 // Add sites to this list
 // prettier-ignore
-const Users: User[] = [
+// 
+const Users: User[] = coachingCalls;
+
+
+
+const Users_: User[] = [
 {  
 		title: 'Practice, Practice, Practice. Facilitated Role Plays with Lots of Support w/ Magda Baranska [31 Aug 2020]',  
 		date: '2020-08-31',  
