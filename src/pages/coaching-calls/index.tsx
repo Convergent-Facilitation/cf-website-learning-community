@@ -20,7 +20,7 @@ import {
   TagList,
   type User,
   type TagType,
-} from '@site/src/data/users';
+} from '@site/src/data/coaching-calls';
 import ShowcaseTagSelect, {
   readSearchTags,
 } from './_components/ShowcaseTagSelect';
