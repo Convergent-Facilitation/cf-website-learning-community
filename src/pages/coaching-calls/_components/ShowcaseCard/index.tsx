@@ -62,9 +62,9 @@ function ShowcaseCard({user}: {user: User}) {
   return (
     <li key={user.title} className="card shadow--md">
       <div className={clsx('card__image', styles.showcaseCardImage)}>
-	<LazyLoad height={200} offset={100}>
-        <Image img={user.preview} alt={user.title} />
-</LazyLoad>
+		<LazyLoad height={200} offset={100}>
+			<Image img={user.preview} alt={user.title} />
+		</LazyLoad>
       </div>
       <div className="card__body">
         <div className={clsx(styles.showcaseCardHeader)}>

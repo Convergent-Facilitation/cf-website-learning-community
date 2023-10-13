@@ -23,13 +23,13 @@ glob("resources/recordings-coaching-calls/[!_]*.mdx", function (err, files) {
 	  console.log(path.basename(files[i]))
 	  console.log(result.data.coach.toLowerCase())
 	  
-		let previewPath = `/img/showcase/${result.data.coach_lower_case}-cf-coaching-call.png`;
+		let previewPath = `/img/coachingCalls/${result.data.coach_lower_case}-cf-coaching-call.png`;
 		console.log(previewPath.substring(1))
 
 	// Check if file exists, otherwise use generic image
 	if (!fs.existsSync('static' + previewPath)) {
 		console.log('TRUE')
-		  previewPath = '/img/showcase/generic-cf-coaching-call.png';
+		  previewPath = '/img/coachingCalls/generic-cf-coaching-call.png';
 		}
 
       // Create a new object based on parsed frontmatter and filename.
