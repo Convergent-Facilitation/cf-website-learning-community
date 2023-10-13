@@ -33,7 +33,7 @@ import ShowcaseTooltip from './_components/ShowcaseTooltip';
 
 import styles from './styles.module.css';
 
-const TITLE = translate({message: 'Library of Convergent Facilitation Courses and Workshops'});
+const TITLE = translate({message: 'Courses and Workshops Library'});
 const DESCRIPTION = translate({
   message: 'The courses focus on introducing and deepening the understanding of the Convergent Facilitation process and principles.',
 });
@@ -123,15 +123,6 @@ function ShowcaseHeader() {
     <section className="margin-top--lg margin-bottom--lg text--center">
       <h1>{TITLE}</h1>
       <p>{DESCRIPTION}</p>
-      <a
-        className="button button--primary"
-        href={SUBMIT_URL}
-        target="_blank"
-        rel="noreferrer">
-        <Translate id="showcase.header.button">
-         Contribute to the library by requesting a coaching call
-        </Translate>
-      </a>
     </section>
   );
 }

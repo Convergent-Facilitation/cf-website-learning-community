@@ -33,7 +33,7 @@ import ShowcaseTooltip from './_components/ShowcaseTooltip';
 
 import styles from './styles.module.css';
 
-const TITLE = translate({message: 'Library of Convergent Facilitation Coaching Call Recordings'});
+const TITLE = translate({message: 'Coaching Call Library'});
 const DESCRIPTION = translate({
   message: 'Coaching calls are at the core of how we build capacity. Look at the calendar to find out when the next is going to happen or learn how you can request and schedule one yourself!',
 });
