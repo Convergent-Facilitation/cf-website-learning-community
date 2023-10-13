@@ -115,6 +115,7 @@ const config = {
           { label: 'Coaching Calls', to: 'coaching-calls', position: 'left' },
           { label: 'Courses', to: 'courses', position: 'left' },
           { label: 'Materials', to: 'Materials', position: 'left' },
+          { label: 'App', href: 'https://www.convergence.tools', position: 'left' },
           {
             type: 'search',
             position: 'right'
@@ -126,7 +127,7 @@ const config = {
             className: 'header-hylo-link',
             'aria-label': 'Hylo Group'
           },
-	  { label: 'Connect', to: 'contact', position: 'right' },
+	  { label: 'Contact', to: 'contact', position: 'right' },
 
         ]
       },
