@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-	"prebuild": "node parseCoachingCalls.js",
+	"prebuild": "npm run parse-coaching-calls && npm run parse-courses",
+	"parse-coaching-calls": "node parseCoachingCalls.js",
+	"parse-courses": "node parseCourses.js",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
