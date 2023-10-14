@@ -9,6 +9,7 @@
 .cache-loader
 src/data/coachingCalls.json
 src/data/courses.json
+src/data/coachingCallTags.json
 
 # Misc
 .DS_Store
