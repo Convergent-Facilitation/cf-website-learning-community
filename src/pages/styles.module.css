@@ -20,6 +20,12 @@ textarea {
 
 .section {
   padding: 74px 0;
+  text-align: center;
+}
+
+.events-hero {
+  width: 100%;
+  max-width: none;
 }
 
 .sectionAlt {
@@ -118,14 +124,11 @@ html[data-theme='dark'] .topBannerTitleText {
 .hero {
   background-color: #ffffff;
   margin-top: -50px;
-  margin-bottom: 100px;
-  padding-left: 70px;
 }
 
 .heroInner {
   margin: 0 auto;
   max-width: 1400px;
-  padding: 0 20px;
   padding-top: 100px;
 }
 

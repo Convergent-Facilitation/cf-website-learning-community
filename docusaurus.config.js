@@ -111,7 +111,6 @@ const config = {
             docId: 'what-can-you-do'
           },
           { label: 'Blog', to: 'blog', position: 'left' },
-          { label: 'Events', to: 'events', position: 'left' },
           { label: 'Coaching Calls', to: 'coaching-calls', position: 'left' },
           { label: 'Courses', to: 'courses', position: 'left' },
           { label: 'Materials', to: 'Materials', position: 'left' },
@@ -257,9 +256,10 @@ const config = {
       '@docusaurus/plugin-content-blog',
       {
         path: 'events',
-        routeBasePath: 'events',
+        routeBasePath: '/',
         id: 'events',
         blogSidebarTitle: 'All Events',
+		blogSidebarCount: 0,
         showReadingTime: false,
         authorsMapPath: '../humans.yml'
       }

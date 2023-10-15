@@ -12,7 +12,7 @@ import styles from './styles.module.css';
 export default function BlogPostItemHeaderTitle({className}) {
   const {metadata, isBlogPostPage} = useBlogPost();
   const {permalink, title} = metadata;
-  const TitleHeading = isBlogPostPage ? 'h1' : 'h2';
+  const TitleHeading = isBlogPostPage ? 'h1' : 'h3';
   return (
     <TitleHeading className={clsx(styles.title, className)} itemProp="headline">
       {isBlogPostPage ? (

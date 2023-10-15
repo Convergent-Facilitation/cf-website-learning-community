@@ -18,7 +18,7 @@ import Heading from '@theme/Heading'
 import Image from '@theme/IdealImage'
 import { InlineIcon, Icon } from '@iconify/react' // Import the entire Iconify library.
 
-function HeroBanner () {
+export function HeroBanner () {
   return (
     <div className={styles.hero} data-theme="light">
       <div className={styles.heroInner}>
@@ -91,7 +91,7 @@ function QuotesSection () {
   )
 }
 
-function VideoContainer () {
+export function VideoContainer () {
   return (
   <div className="container text--center">
           <Heading as="h1" >
