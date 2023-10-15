@@ -110,7 +110,6 @@ const config = {
             position: 'left',
             docId: 'what-can-you-do'
           },
-          { label: 'Blog', to: 'blog', position: 'left' },
           { label: 'Coaching Calls', to: 'coaching-calls', position: 'left' },
           { label: 'Courses', to: 'courses', position: 'left' },
           { label: 'Materials', to: 'Materials', position: 'left' },
