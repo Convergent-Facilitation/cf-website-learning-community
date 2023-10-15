@@ -129,7 +129,7 @@ function ShowcaseHeader() {
         target="_blank"
         rel="noreferrer">
         <Translate id="showcase.header.button">
-         Contribute to the library by requesting a coaching call
+         Request a coaching call
         </Translate>
       </a>
     </section>
