@@ -1,0 +1,116 @@
+{
+  "introducing_cf": {
+    "label": "Introducing CF" ,
+    "description": "",
+    "color": "#39ca30"
+  },
+  "challenge_based": {
+    "label": "Challenge-based Coaching" ,
+    "description": "",
+    "color": "#dfd545"
+  },
+  "topic": {
+    "label": "Topic-based Coaching" ,
+    "description": "",
+    "color": "#a44fb7"
+  },
+  "social_movements": {
+    "label": "Social Movements" ,
+    "description": "",
+    "color": "#127f82"
+  },
+  "transparent_facilitation": {
+    "label": "Transparent Facilitation" ,
+    "description": "",
+    "color": "#127f82"
+  },
+  "inner_work": {
+    "label": "Inner Work" ,
+    "description": "",
+    "color": "#127f82"
+  },
+  "large_groups": {
+    "label": "Large Groups" ,
+    "description": "",
+    "color": "#127f82"
+  },
+  "power_differences": {
+    "label": "Power Differences" ,
+    "description": "",
+    "color": "#127f82"
+  },
+  "nce": {
+    "label": "NCE" ,
+    "description": "",
+    "color": "#127f82"
+  },
+  "thresholds": {
+    "label": "Threshold" ,
+    "description": "",
+    "color": "#fe6829"
+  },
+  "dissent": {
+    "label": "Inviting Dissent" ,
+    "description": "",
+    "color": "#8c2f00"
+  },
+  "facilitation": {
+    "label": "Facilitation" ,
+    "color": "#4267b2" 
+  },
+  "verene": {
+    "label": "Coach:Verene" ,
+    "description": "",
+    "color": "#14cfc3"
+  },
+  "roni": {
+    "label": "Coach:Roni" ,
+    "description": "",
+    "color": "#ffcfc3"
+  },
+  "mariam": {
+    "label": "Coach:Mariam" ,
+    "description": "",
+    "color": "#ffcfc3"
+  },
+  "paul": {
+    "label": "Coach:Paul" ,
+    "description": "",
+    "color": "#ffcfc3"
+  },
+  "emma": { 
+	"label": "Coach:Emma" ,
+    "description": "",
+    "color": "#7698B3"
+  },
+  "miki": { 
+	"label": "Coach:Miki" ,
+    "description": "",
+    "color": "#7698B3"
+  },
+  "lisa": { 
+	"label": "Coach:Lisa" ,
+    "description": "",
+    "color": "#7698B3"
+  },
+  "neil": { 
+	"label": "Coach:Neil" ,
+    "description": "",
+    "color": "#7698B3"
+  },
+  "aya": { 
+	"label": "Coach:Aya" ,
+    "description": "",
+    "color": "#7698B3"
+  },
+  "magda": {
+    "label": "Coach:Magda" ,
+    "description": "",
+    "color": "#7698B3"
+  },
+  "mars": {
+    "label": "Coach:Mars" ,
+    "description": "",
+    "color": "#ffcfc3"
+  }
+}

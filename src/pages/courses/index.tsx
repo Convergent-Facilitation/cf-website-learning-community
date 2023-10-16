@@ -298,7 +298,6 @@ export default function Showcase(): JSX.Element {
     <Layout title={TITLE} description={DESCRIPTION}>
       <main className="margin-vert--lg">
         <ShowcaseHeader />
-        <ShowcaseFilters />
         <ShowcaseCards />
       </main>
     </Layout>
