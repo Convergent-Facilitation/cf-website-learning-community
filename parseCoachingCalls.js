@@ -30,11 +30,11 @@ glob('resources/recordings-coaching-calls/[!_]*.mdx', function (err, files) {
       const result = matter(fileContent)
 
 
-      let previewPath = `/img/coachingCalls/${result.data.coach_lower_case}-cf-coaching-call.png`
+      let previewPath = `/img/coachingCalls/${result.data.coach_lower_case}-cf-coaching-call.webp`
 
       // Check if file exists, otherwise use generic image
       if (!fs.existsSync('static' + previewPath)) {
-		  previewPath = '/img/coachingCalls/generic-cf-coaching-call.png'
+		  previewPath = '/img/coachingCalls/generic-cf-coaching-call.webp'
       }
 
       // Create a new object based on parsed frontmatter and filename.

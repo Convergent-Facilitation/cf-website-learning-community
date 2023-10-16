@@ -26,7 +26,7 @@ export function HeroBanner () {
           <img
             alt={translate({ message: 'Colorfull dots that form an arrow' })}
             className={styles.heroLogo}
-            src={useBaseUrl('/img/reweaving-main-image-web.png')}
+            src={useBaseUrl('/img/learning-web.webp')}
             width="400"
             height="550"
           />

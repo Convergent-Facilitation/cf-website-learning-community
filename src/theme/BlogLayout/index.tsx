@@ -78,7 +78,7 @@ export default function BlogLayout(props: Props): JSX.Element {
 <p>Below you see how our global community is distributed (updated Sep 2023). Explore the live map here: <a href='https://www.hylo.com/groups/convergent-facilitation/map?sortBy=updated&hide=discussion&hide=request&hide=offer&hide=resource&hide=project&hide=event&hide=group'>Hylo/Convergent Facilitation Group/Map</a>. If you are not part of our collaborative community space on Hylo find out how to join here: <a href='/engage/platforms-and-co-creation/co-create-on-hylo'>Co-Create on Hylo</a>.</p>
           <img
             alt="map of locations of community members"
-            src="/img/hylo-community-map.png"
+            src="/img/hylo-community-map.webp"
           />
 
 </div>
