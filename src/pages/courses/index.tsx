@@ -122,7 +122,8 @@ function ShowcaseHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
       <h1>{TITLE}</h1>
-      <p>{DESCRIPTION}</p>
+      <p>The courses focus on introducing and deepening the understanding of the Convergent Facilitation process and principles. To join a live event take a look at <a href="/#offerings"> Upcoming Offerings by CF Providers</a>.</p>
+
     </section>
   );
 }

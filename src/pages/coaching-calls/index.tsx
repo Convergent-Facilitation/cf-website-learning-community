@@ -122,7 +122,7 @@ function ShowcaseHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
       <h1>{TITLE}</h1>
-      <p>{DESCRIPTION}</p>
+  <p>Coaching calls are at the core of how we build capacity. Look at the <a href="/#events-overview">Events Overview</a> to find out when the next is going to happen request one yourself and contribute this growing library of Coaching Calls!</p>
       <a
         className="button button--primary"
         href={SUBMIT_URL}

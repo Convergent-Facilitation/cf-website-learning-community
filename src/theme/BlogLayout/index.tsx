@@ -35,7 +35,7 @@ export default function BlogLayout(props: Props): JSX.Element {
               <>
 			<HeroBanner/>
 <div className={styles.section}>
-            <Heading as="h1"> Events Overview including Community-Created Events</Heading>
+            <h1 id='events-overview'> Events Overview including Community-Created Events</h1>
 <p>This calendar is co-created by the community—find out how: <a href='engage/platforms-and-co-creation/co-create-on-hylo'>Co-Create on Hylo</a>. Learn how you can receive email invites for new events: <a href='engage/platform-and-co-creation/calendar-invites'>Receive Calendar Invites</a>.</p>
 
 <div className="gcal-events">
@@ -43,7 +43,7 @@ export default function BlogLayout(props: Props): JSX.Element {
 </div>
 </div>
 <div className={styles.section}>
-            <Heading as="h1"> Upcoming Offerings by CF Providers</Heading>
+            <h1 id='offerings'> Upcoming Offerings by CF Providers</h1>
 </div>
               </>
             }
