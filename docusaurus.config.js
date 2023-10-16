@@ -271,8 +271,9 @@ const config = {
         editUrl:
             'https://github.com/Convergent-Facilitation/cf-website/tree/main/',
         id: 'resources',
-        sidebarPath: require.resolve('./sidebars.js')
-
+		breadcrumbs: false,
+        sidebarPath: false,
+        //sidebarPath: require.resolve('./sidebars.js')
       }
     ]
   ]
