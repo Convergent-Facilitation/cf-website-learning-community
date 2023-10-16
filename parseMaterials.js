@@ -4,7 +4,7 @@ const glob = require("glob");
 const path = require("path");
 
 // Get all mdx files that don't start with _
-glob("resources/recordings-courses-workshops/[!_]*.mdx", function (err, files) {
+glob("resources/materials/*.mdx", function (err, files) {
   if(err) {
     console.log("Error finding files: " + err)
   } else {
@@ -23,22 +23,18 @@ glob("resources/recordings-courses-workshops/[!_]*.mdx", function (err, files) {
       // Create a new object based on parsed frontmatter and filename.
       let newDataObj ={
         title: result.data.title,
-        date: result.data.date,
+        //date: result.data.date,
         description: result.data.description,
         tags: result.data.tags || [],
-        
         preview: result.data.image,
-        
-        website:`/resources/recordings-courses-workshops/${path.basename(files[i], '.mdx')}`,
-        
-       source: result.data.external_link
+        website: result.data.website || `/resources/materials/${path.basename(files[i], '.mdx')}`,
+        source: result.data.external_link
        }
 
        dataArr.push(newDataObj);
       
     }
 
-    // Write JSON output to disk at /src/data/coachingCalls/
-    fs.writeJson('src/data/courses.json', dataArr);
+    fs.writeJson('src/data/materials.json', dataArr);
   }
 });
