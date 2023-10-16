@@ -248,7 +248,7 @@ const config = {
         path: 'resources',
         routeBasePath: 'resources',
         editUrl:
-			'https://github.com/Convergent-Facilitation/cf-website-learning-community'
+			'https://github.com/Convergent-Facilitation/cf-website-learning-community',
         id: 'resources',
 		breadcrumbs: false,
         sidebarPath: false,
