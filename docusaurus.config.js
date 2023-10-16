@@ -125,6 +125,7 @@ const config = {
             className: 'header-hylo-link',
             'aria-label': 'Hylo Group'
           },
+	  { label: 'Give', to: 'give', position: 'right' },
 	  { label: 'Contact', to: 'contact', position: 'right' },
 
         ]
@@ -133,99 +134,77 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Learn',
+            title: 'Engage',
             items: [
               {
-                label: 'Spheres of Engagement',
+                label: 'What you can do',
                 to: '/engage/what-can-you-do'
               },
               {
-                label: 'Events',
-                to: 'events'
+                label: 'Co-Create Learning Web on Hylo',
+                to: '/engage/platforms-and-co-creation/co-create-on-hylo',
               },
               {
-                label: 'Co-Create on Hylo',
-                to: '/engage/apply-and-apprentice/join-hylo'
+                label: 'Ask for Coaching',
+                to: '/engage/apply-and-apprentice/ask-for-coaching'
               },
               {
-                label: 'Practice groups',
+                label: 'Participate in Practice groups',
                 to: '/engage/experience-and-embody/practice-groups'
-              }
+              },
+              {
+				label: 'Offer a Practice group',
+                to: '/engage/apply-and-apprentice/offer-practice-groups'
+              },
             ]
           },
           {
             title: 'Resources',
             items: [
               {
+                label: 'Coaching Calls Library',
+                to: '/coaching-calls'
+              },
+              {
+                label: 'Courses and Workshops Library',
+                to: '/courses'
+              },
+              {
+                label: 'Other Materials and Resources Library',
+                to: '/materials'
+              },
+              {
                 label: 'Book: The Highest Common Denominator',
-                href: '/resources/the-book'
+                href: 'https://thefearlessheart.org/store/the-highest-common-denominator/'
               },
-              {
-                label: 'Recordings Coaching Calls',
-                to: '/resources/recordings-coaching-calls/overview-coaching-call-recordings'
-              },
-              {
-                label: 'Case Studies',
-                href: '/resources/case-studies'
-              },
-              {
-                label: 'CF Facilitators',
-                to: '/about#who-we-are'
-              }
             ]
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: 'blog'
+                label: 'Contact',
+				  to: '/contact#reach-out'
               },
               {
                 label: 'Newsletter',
-                to: '/contact#stay-in-the-loop'
+                to: '/contact#newsletters'
+              },
+              {
+				label: 'CF Group on Hylo',
+		        href: 'https://www.hylo.com/groups/convergent-facilitation'
               },
               {
                 label: 'NGL Community',
                 href: 'https://nglcommunity.org'
               },
               {
-                label: 'Contact',
-				  to: '/contact'
-              },
-              {
                 label: 'Give',
                 to: '/give'
               }
 
-              //   {
-              //     html: `
-              //   <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify">
-              //     <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" width="114" height="51" />
-              //   </a>
-              // `,
-              //   },
             ]
           },
-          {
-            title: 'Legal (needed?)',
-            // Please don't remove the privacy and terms, it's a legal
-            // requirement.
-            items: [
-              {
-                label: 'Privacy (needed?)',
-                href: '/'
-              },
-              {
-                label: 'Terms (needed?)',
-                href: '/'
-              },
-              {
-                label: 'Commons and License',
-                href: '/'
-              }
-            ]
-          }
         ],
         logo: {
           alt: 'Nonviolent Global Liberation Community Logo',
