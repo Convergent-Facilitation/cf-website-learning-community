@@ -65,7 +65,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-			'https://github.com/Convergent-Facilitation/cf-website-learning-community'
+			'https://github.com/Convergent-Facilitation/cf-website-learning-community/tree/main'
         },
         blog: {
           showReadingTime: true,
@@ -74,7 +74,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-			'https://github.com/Convergent-Facilitation/cf-website-learning-community'
+			'https://github.com/Convergent-Facilitation/cf-website-learning-community/tree/main'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
@@ -248,7 +248,7 @@ const config = {
         path: 'resources',
         routeBasePath: 'resources',
         editUrl:
-			'https://github.com/Convergent-Facilitation/cf-website-learning-community',
+			'https://github.com/Convergent-Facilitation/cf-website-learning-community/tree/main',
         id: 'resources',
 		breadcrumbs: false,
         sidebarPath: false,
