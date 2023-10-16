@@ -54,6 +54,16 @@ h2 {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 768px) {
+.gcal-events {
+  overflow: hidden;
+  width: 350px;
+  max-width: 350;
+  margin: 0 auto;
+}
+
+}
+
 .video-container {
   position: center;
   overflow: hidden;
