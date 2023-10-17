@@ -38,9 +38,9 @@ const config = {
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
         indexPages: true,
-        docsRouteBasePath: ['/engage', '/resources'],
+        docsRouteBasePath: ['/how-to-engage', '/resources'],
         blogRouteBasePath: ['/blog', '/events'],
-        docsDir: ['engage', 'resources'],
+        docsDir: ['how-to-engage', 'resources'],
         blogDir: ['blog', 'events']
 
         // For Docs using Chinese, The `language` is recommended to set to:
@@ -60,8 +60,8 @@ const config = {
 
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          path: 'engage',
-          routeBasePath: 'engage',
+          path: 'how-to-engage',
+          routeBasePath: 'how-to-engage',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -105,7 +105,7 @@ const config = {
         },
         items: [
           {
-            label: 'Engage',
+            label: 'How to Engage',
             type: 'doc',
             position: 'left',
             docId: 'what-can-you-do'
