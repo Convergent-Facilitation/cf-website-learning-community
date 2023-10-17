@@ -238,6 +238,8 @@ const config = {
         id: 'events',
         blogSidebarTitle: 'All Events',
 		blogSidebarCount: 0,
+        blogTitle: 'Grow Convergent Facilitation',
+        blogDescription: 'Grow Convergent Facilitation Capacity within a Collaborative Learning Web',
         showReadingTime: false,
         authorsMapPath: '../humans.yml'
       }
