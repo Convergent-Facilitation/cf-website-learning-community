@@ -9,7 +9,7 @@
 /* You can override the default Infima variables here. */
 :root {
 /*  --ifm-color-primary: #bc1a8e; */
-  --ifm-font-family-base: 'Lato', sans-serif;
+  --ifm-font-family-base: 'Arial', sans-serif;
   --ifm-color-primary: #963b56; 
   --site-primary-hue-saturation: 341 69%;
   --ifm-color-primary-dark: #82a0b2;
@@ -33,6 +33,11 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+body {
+ background-color: #fffafc;
+
 }
 
 h1 {
