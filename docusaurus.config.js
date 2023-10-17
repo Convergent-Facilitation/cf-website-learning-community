@@ -108,7 +108,7 @@ const config = {
             label: 'How to Engage',
             type: 'doc',
             position: 'left',
-            docId: 'what-can-you-do'
+            docId: 'overview'
           },
           { label: 'Coaching Calls', to: 'coaching-calls', position: 'left' },
           { label: 'Courses', to: 'courses', position: 'left' },

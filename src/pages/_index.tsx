@@ -26,9 +26,9 @@ export function HeroBanner () {
           <img
             alt={translate({ message: 'Colorfull dots that form an arrow' })}
             className={styles.heroLogo}
-            src={useBaseUrl('/img/learning-web.webp')}
+            src={useBaseUrl('/img/learning-web-transparent.webp')}
             width="400"
-            height="550"
+            height="400"
           />
           <span
             className={styles.heroTitleTextHtml}
@@ -45,9 +45,9 @@ export function HeroBanner () {
           />
         </Heading>
 
-        <p className={styles.heroProjectSubtitle}> <b>Here for the first time?</b> 👉 Find out <b><a href='/engage/what-can-you-do'>What You Can Do 🌞🌱🌿🌳</a></b></p>
+        <p className={styles.heroProjectSubtitle}> <b>Here for the first time?</b> 👉 <b><a href='/how-to-engage/overview'>Find your Way to Engage</a></b></p>
 
-        <p className={styles.heroProjectSubtitle}> <b>Wanting to stay in the loop?</b> 👉 Sign up to our <b><a href='/contact#stay-in-the-loop-with-our-newsletters'>Capacity-Growing Newsletter ✉️</a></b></p>
+        <p className={styles.heroProjectSubtitle}> <b>Wanting to stay in the loop?</b> 👉  <b><a href='/contact#stay-in-the-loop-with-our-newsletters'>Sign up to our Capacity-Growing Newsletter</a></b></p>
 
       </div>
     </div>
