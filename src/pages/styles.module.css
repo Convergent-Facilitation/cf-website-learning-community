@@ -178,7 +178,7 @@ html[data-theme='dark'] .topBannerTitleText {
   animation-duration: 4s;
   animation-name: jack-in-the-box;
   float: right;
-  margin-top: -50px;
+  margin-top: 15px;
   padding: 0 20px 20px;
   height: auto;
 }
