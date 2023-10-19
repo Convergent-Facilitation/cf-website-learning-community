@@ -49,6 +49,8 @@ export function HeroBanner () {
 
         <p className={styles.heroProjectSubtitle}> <b>Wanting to stay in the loop?</b> 👉  <b><a href='/contact#stay-in-the-loop-with-our-newsletters'>Sign up to our Capacity-Growing Newsletter</a></b></p>
 
+        <p className={styles.heroProjectSubtitle}> <b>Looking for something specific?</b> 👉  <b>Search in the top menu bar, e.g. </b> <code><InlineIcon icon="ph:magnifying-glass-bold"/> zoom room</code> or <code><InlineIcon icon="ph:magnifying-glass-bold"/> practice group </code></p>
+
       </div>
     </div>
   )
