@@ -61,6 +61,7 @@ const ContactForm = () => {
       <div >
         <input
           type="text"
+	      className="email-input"
           placeholder="Your name"
           name="name"
           required
@@ -69,6 +70,7 @@ const ContactForm = () => {
       <div>
         <input
           type="email"
+	  	  className="email-input"
           placeholder="Email"
           name="email"
           required
@@ -106,9 +108,9 @@ function App() {
 
   return (
 
-    <div className="App">
-      <header className="App-header">
-        <div className="py-6">
+    <div className="Appp">
+      <header className="Appp-header">
+        <div className="piy-6">
           <ContactForm />
         </div>
       </header>

@@ -37,7 +37,7 @@ const TITLE = translate({message: 'Coaching Call Library'});
 const DESCRIPTION = translate({
   message: 'Coaching calls are at the core of how we build capacity. Look at the calendar to find out when the next is going to happen or learn how you can request and schedule one yourself!',
 });
-const SUBMIT_URL = 'engage/apply-and-apprentice/ask-for-coaching';
+const SUBMIT_URL = 'how-to-engage/apply-and-apprentice/ask-for-coaching';
 
 type UserState = {
   scrollTopPosition: number;
