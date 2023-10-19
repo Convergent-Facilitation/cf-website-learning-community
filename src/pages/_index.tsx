@@ -26,8 +26,8 @@ export function HeroBanner () {
           <img
             alt={translate({ message: 'Colorfull dots that form an arrow' })}
             className={styles.heroLogo}
-            src={useBaseUrl('/img/learning-web-transparent.webp')}
-            width="400"
+            src={useBaseUrl('/img/ants-bridge-round-corners.webp')}
+            width="500"
             height="400"
           />
           <span
@@ -49,7 +49,7 @@ export function HeroBanner () {
 
         <p className={styles.heroProjectSubtitle}> <b>Wanting to stay in the loop?</b> 👉  <b><a href='/contact#stay-in-the-loop-with-our-newsletters'>Sign up to our Capacity-Growing Newsletter</a></b></p>
 
-        <p className={styles.heroProjectSubtitle}> <b>Looking for something specific?</b> 👉  <b>Search in the top menu bar, e.g. </b> <code><InlineIcon icon="ph:magnifying-glass-bold"/> zoom room</code> or <code><InlineIcon icon="ph:magnifying-glass-bold"/> practice group </code></p>
+        <p className={styles.heroProjectSubtitle}> <b>Looking for something specific?</b> 👉  <b>Search in the top menu bar, e.g. </b> <code><InlineIcon icon="ph:magnifying-glass-bold"/> zoom room</code></p>
 
       </div>
     </div>
