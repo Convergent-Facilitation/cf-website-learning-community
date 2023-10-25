@@ -3,6 +3,8 @@ backend:
   branch: main
 media_folder: "static/img"
 public_folder: "/img"
+accept_roles: #optional - accepts all users if left out
+    - editing
 collections: 
   - name: "how-to-engage"
     label: "How-to-Engage"
@@ -32,4 +34,5 @@ collections:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Link Preview Description", name: "description", widget: "text"}
       - {label: "Providers", name: "authors", widget: "list"}
+      - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
