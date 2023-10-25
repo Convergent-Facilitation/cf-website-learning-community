@@ -11,6 +11,7 @@ collections:
     folder: "how-to-engage"
     create: true
     slug: "{{slug}}"
+    preview_path: how-to-engage/{{slug}}
     extension: "mdx"
     format: "frontmatter"
     meta: { path: { widget: string, label: 'Path', index_file: 'overview' } }
