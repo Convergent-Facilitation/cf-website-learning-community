@@ -9,6 +9,8 @@ collections:
     folder: "how-to-engage"
     create: true
     slug: "{{slug}}"
+    extension: "mdx"
+    format: "frontmatter"
     nested:
       depth: 100 # max depth to show in the collection tree
       summary: '{{title}}'
