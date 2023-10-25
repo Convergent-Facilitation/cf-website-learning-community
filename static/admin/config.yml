@@ -1,8 +1,7 @@
+local_backend: true
 backend:
   name: git-gateway
   branch: main
-  accept_roles: #optional - accepts all users if left out
-    - editing
 media_folder: "static/img"
 public_folder: "/img"
 collections: 
@@ -13,6 +12,7 @@ collections:
     slug: "{{slug}}"
     extension: "mdx"
     format: "frontmatter"
+    meta: { path: { widget: string, label: 'Path', index_file: 'overview' } }
     nested:
       depth: 100 # max depth to show in the collection tree
       summary: '{{title}}'
@@ -23,6 +23,8 @@ collections:
   - name: "events" # Used in routes, e.g., /admin/collections/blog
     label: "Events" # Used in the UI
     folder: "events" # The path to the folder where the documents are stored
+    extension: "mdx"
+    format: "frontmatter"
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     nested:
