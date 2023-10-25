@@ -5,7 +5,7 @@ media_folder: "static/img"
 public_folder: "/img"
 collections: 
   - name: "how-to-engage"
-    label: "How to Engage"
+    label: "How-to-Engage"
     folder: "how-to-engage"
     create: true
     slug: "{{slug}}"
@@ -18,7 +18,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Sidebar Position", name: "sidebar_position", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
   - name: "events" # Used in routes, e.g., /admin/collections/blog
     label: "Events" # Used in the UI
     folder: "events" # The path to the folder where the documents are stored
@@ -34,4 +33,3 @@ collections:
       - {label: "Link Preview Description", name: "description", widget: "text"}
       - {label: "Providers", name: "authors", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
