@@ -35,10 +35,10 @@ function FullEventLabel() {
 export default function BlogPostItemFooterReadMoreLink(props) {
   const {blogPostTitle, ...linkProps} = props;
   const location = useLocation();
-  const isEventsRoute = location.pathname === '/events';
+  const isEventsRoute = location.pathname === '/';
 
   return (
-    <Link
+    <Link className="button button--primary"
       aria-label={translate(
         {
           message: 'Read more about {title}',
