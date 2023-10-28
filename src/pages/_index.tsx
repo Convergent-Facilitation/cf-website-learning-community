@@ -45,9 +45,9 @@ export function HeroBanner () {
           />
         </Heading>
 
-        <p className={styles.heroProjectSubtitle}> <b>Here for the first time?</b> 👉 <b><a href='/how-to-engage/overview'>Find your Way to Engage</a></b></p>
+        <p className={styles.heroProjectSubtitle}> <b>Here for the first time?</b> 👉 <b><a href='/how-to-engage/'>Find your Way to Engage</a></b></p>
 
-        <p className={styles.heroProjectSubtitle}> <b>Wanting to stay in the loop?</b> 👉  <b><a href='/contact#stay-in-the-loop-with-our-newsletters'>Sign up to our Capacity-Growing Newsletter</a></b></p>
+        <p className={styles.heroProjectSubtitle}> <b>Wanting to stay in the loop?</b> 👉  <b><a href='/contact#newsletters'>Sign up to our Capacity-Growing Newsletter</a></b></p>
 
         <p className={styles.heroProjectSubtitle}> <b>Looking for something specific?</b> 👉  <b>Search in the top menu bar, e.g. </b> <code><InlineIcon icon="ph:magnifying-glass-bold"/> zoom room</code></p>
 

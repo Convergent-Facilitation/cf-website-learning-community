@@ -94,7 +94,8 @@ const config = {
       },
       announcementBar: {
         id: 'announcementBar-2', // Increment on change
-        content: '⭐️ Welcome to our new Convergent Facilitation website! Get started: <a target="_blank" rel="noopener noreferrer" href="/engage/what-can-you-do"><i>What can you do?</i></a> ⭐️'
+        content: '⭐️ Welcome to our new Convergent Facilitation Capacity Building website! Deepen your Convergent Facilitation skills by joining Roni and Verene live for <a target="_blank" rel="noopener noreferrer" href="/2023-nov-roni-verene-transforming-inner-obstacles"><i>Core Skills Workshop: Transforming inner obstacles to integrating everyone\'s needs</i></a> on Nov 30 ⭐️'
+
       },
       navbar: {
         hideOnScroll: false,
@@ -108,7 +109,7 @@ const config = {
             label: 'How to Engage',
             type: 'doc',
             position: 'left',
-            docId: 'overview'
+            docId: 'index'
           },
           { label: 'Coaching Calls', to: 'coaching-calls', position: 'left' },
           { label: 'Courses', to: 'courses', position: 'left' },
@@ -134,27 +135,27 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Engage',
+            title: 'How to Engage',
             items: [
               {
-                label: 'What you can do',
-                to: '/engage/what-can-you-do'
+                label: 'Find your Way to Engage',
+                to: '/how-to-engage'
               },
               {
                 label: 'Co-Create Learning Web on Hylo',
-                to: '/engage/platforms-and-co-creation/co-create-on-hylo',
+                to: '/how-to-engage/platforms-and-co-creation/co-create-on-hylo',
               },
               {
                 label: 'Ask for Coaching',
-                to: '/engage/apply-and-apprentice/ask-for-coaching'
+                to: '/how-to-engage/apply-and-apprentice/ask-for-coaching'
               },
               {
                 label: 'Participate in Practice groups',
-                to: '/engage/experience-and-embody/practice-groups'
+                to: '/how-to-engage/experience-and-embody/practice-groups'
               },
               {
 				label: 'Offer a Practice group',
-                to: '/engage/apply-and-apprentice/offer-practice-groups'
+                to: '/how-to-engage/apply-and-apprentice/offer-practice-groups'
               },
             ]
           },
@@ -183,6 +184,10 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Give',
+                to: '/give'
+              },
+              {
                 label: 'Contact',
 				  to: '/contact#reach-out'
               },
@@ -191,7 +196,7 @@ const config = {
                 to: '/contact#newsletters'
               },
               {
-				label: 'CF Group on Hylo',
+				label: 'Learning Web on Hylo',
 		        href: 'https://www.hylo.com/groups/convergent-facilitation'
               },
               {
@@ -199,9 +204,9 @@ const config = {
                 href: 'https://nglcommunity.org'
               },
               {
-                label: 'Give',
-                to: '/give'
-              }
+                label: 'Website Code on Github',
+                href: 'https://github.com/Convergent-Facilitation/cf-website-learning-community/tree/main'
+              },
 
             ]
           },

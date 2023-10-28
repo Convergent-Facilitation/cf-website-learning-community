@@ -36,7 +36,7 @@ export default function BlogLayout(props: Props): JSX.Element {
 			<HeroBanner/>
 <div className={styles.section}>
             <h1 id='events-overview'> Events Overview including Community-Created Events</h1>
-<p>This calendar is co-created by the community—find out how: <a href='engage/platforms-and-co-creation/co-create-on-hylo'>Co-Create on Hylo</a>. Learn how you can receive email invites for new events: <a href='engage/platform-and-co-creation/calendar-invites'>Receive Calendar Invites</a>.</p>
+<p>This calendar is co-created by the community—find out how: <a href='how-to-engage/platforms-and-co-creation/co-create-on-hylo'>Co-Create on Hylo</a>. Learn how you can receive email invites for new events: <a href='how-to-engage/platforms-and-co-creation/receive-calendar-invites'>Receive Calendar Invites</a>.</p>
 
 <div className="gcal-events">
             <GcalEvents />
@@ -75,7 +75,7 @@ export default function BlogLayout(props: Props): JSX.Element {
             <Heading as="h1"> Our Global Co-Creation Community on Hylo</Heading>
 
 
-<p>Below you see how our global community is distributed (updated Sep 2023). Explore the live map here: <a href='https://www.hylo.com/groups/convergent-facilitation/map?sortBy=updated&hide=discussion&hide=request&hide=offer&hide=resource&hide=project&hide=event&hide=group'>Hylo/Convergent Facilitation Group/Map</a>. If you are not part of our collaborative community space on Hylo find out how to join here: <a href='/engage/platforms-and-co-creation/co-create-on-hylo'>Co-Create on Hylo</a>.</p>
+<p>Below you see how our global community is distributed (updated Sep 2023). Explore the live map here: <a href='https://www.hylo.com/groups/convergent-facilitation/map?sortBy=updated&hide=discussion&hide=request&hide=offer&hide=resource&hide=project&hide=event&hide=group'>Hylo/Convergent Facilitation Group/Map</a>. If you are not part of our collaborative community space on Hylo find out how to join here: <a href='/how-to-engage/platforms-and-co-creation/co-create-on-hylo'>Co-Create on Hylo</a>.</p>
           <img
             alt="map of locations of community members"
             src="/img/hylo-community-map.webp"
