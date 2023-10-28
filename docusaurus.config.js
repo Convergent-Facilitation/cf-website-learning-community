@@ -94,7 +94,7 @@ const config = {
       },
       announcementBar: {
         id: 'announcementBar-2', // Increment on change
-        content: '⭐️ Welcome to our new Convergent Facilitation Capacity Building website! Deepen your Convergent Facilitation skills by joining Roni and Verene live for <a target="_blank" rel="noopener noreferrer" href="/2023-nov-roni-verene-transforming-inner-obstacles"><i>Core Skills Workshop: Transforming inner obstacles to integrating everyone\'s needs</i></a> on Nov 30 ⭐️'
+        content: '⭐️ Welcome to our new Convergent Facilitation Capacity Building website! Deepen your skills by joining Roni and Verene live for their <a target="_blank" rel="noopener noreferrer" href="/2023-nov-roni-verene-transforming-inner-obstacles"><i>Core Skills Workshop</i></a> on Nov 30 ⭐️'
 
       },
       navbar: {
