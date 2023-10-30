@@ -55,7 +55,11 @@ const config = {
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      (
+	   {
+        googleTagManager: {
+          containerId: 'GTM-PZW9FMRK',
+        },
         debug: false,
 
         docs: {
