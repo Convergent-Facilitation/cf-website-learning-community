@@ -44,6 +44,10 @@ h1 {
   padding-bottom: 20px
 }
 
+.button {
+  margin: 10px
+}
+
 h2 {
   text-align: center;
   padding-top: 40px;
