@@ -225,6 +225,18 @@ const config = {
       }
     }),
   plugins: [
+	  [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/2023-nov-roni-verene-transforming-inner-obstacles',
+            from: '/tio1',
+          },
+          // Redirect from multiple old paths to the new path
+        ],
+      },
+    ],
     [
       '@docusaurus/plugin-ideal-image',
       {
