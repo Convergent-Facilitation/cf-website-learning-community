@@ -57,8 +57,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       (
 	   {
-        googleTagManager: {
-          containerId: 'GTM-PZW9FMRK',
+		gtag: {
+          trackingID: 'G-8CS8889TVP',
+          anonymizeIP: true,
         },
         debug: false,
 
