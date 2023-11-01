@@ -24,7 +24,7 @@ export function HeroBanner () {
       <div className={styles.heroInner}>
         <Heading as="h1" className={styles.heroProjectTagline}>
           <img
-            alt={translate({ message: 'Colorfull dots that form an arrow' })}
+            alt={translate({ message: 'Ants building a bridge across a gap' })}
             className={styles.heroLogo}
             src={useBaseUrl('/img/ants-bridge-round-corners.webp')}
             width="500"
