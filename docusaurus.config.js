@@ -104,7 +104,7 @@ const config = {
       },
       navbar: {
         hideOnScroll: false,
-        title: 'Convergent Facilitation Learning Web',
+        title: 'CF Learning Web',
         logo: {
           alt: 'Convergent Facilitation Logo',
           src: 'img/convergentfacilitation_logo.webp'

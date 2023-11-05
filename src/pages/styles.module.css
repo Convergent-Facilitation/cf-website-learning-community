@@ -119,11 +119,20 @@ html[data-theme='dark'] .topBannerTitleText {
     font-size: 16px;
     white-space: normal;
   }
+  .hero {
+    margin-top: 500px;
+  }
 }
 
 .hero {
   background-color: #fffafc;
   margin-top: -50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    margin-top: 0px;
+  }
 }
 
 .heroInner {
