@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Convergent Facilitation',
-  tagline: 'Grow Global Convergent Facilitation Capacity in Community',
+  title: 'Grow CF Capacity',
+  tagline: 'Grow Convergent Facilitation Capacity within a Collaborative Learning Web',
   favicon: 'img/convergentfacilitation_logo.webp',
 
   // Set the production url of your site here
@@ -98,13 +98,13 @@ const config = {
         disableSwitch: true,
       },
       announcementBar: {
-        id: 'announcementBar-3', // Increment on change
-        content: '⭐️ Welcome to our new Convergent Facilitation capacity growing website! Deepen your skills by joining Roni and Verene live for their <a target="_blank" rel="noopener noreferrer" href="/2023-nov-roni-verene-transforming-inner-obstacles"><i>Core Skills Workshop</i></a> on Nov 30 ⭐️'
+        id: 'announcementBar-4', // Increment on change
+        content: '⭐️ Welcome to our new Grow Convergent Facilitation Capacity website! Deepen your skills by joining Roni and Verene live for their <a target="_blank" rel="noopener noreferrer" href="/2023-nov-roni-verene-transforming-inner-obstacles"><i>Transforming inner Obstacles Workshop</i></a> on Nov 30 ⭐️'
 
       },
       navbar: {
         hideOnScroll: false,
-        title: 'CF Learning Web',
+        title: 'Grow CF Capacity',
         logo: {
           alt: 'Convergent Facilitation Logo',
           src: 'img/convergentfacilitation_logo.webp'
