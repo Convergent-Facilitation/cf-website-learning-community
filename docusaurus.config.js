@@ -98,8 +98,8 @@ const config = {
         disableSwitch: true,
       },
       announcementBar: {
-        id: 'announcementBar-4', // Increment on change
-        content: '⭐️ Welcome to our new Grow Convergent Facilitation Capacity website! Deepen your skills by joining Roni and Verene live for their <a target="_blank" rel="noopener noreferrer" href="/2023-nov-roni-verene-transforming-inner-obstacles"><i>Transforming inner Obstacles Workshop</i></a> on Nov 30 ⭐️'
+        id: 'announcementBar-5', // Increment on change
+        content: '⭐️ Welcome to our new Grow Convergent Facilitation Capacity website! Watch the recording <a target="_blank" rel="noopener noreferrer" href="/resources/recordings-courses-workshops/2023-11-30-transforming-inner-obstacles-roni-verene"><i>Transforming inner Obstacles Workshop</i></a> w/ Roni & Verene⭐️'
 
       },
       navbar: {
