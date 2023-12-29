@@ -34,6 +34,11 @@ export default function BlogLayout (props: Props): JSX.Element {
               <>
 			<HeroBanner/>
 <div className={styles.section}>
+<div className="gcal-events">
+            <GcalEvents />
+</div>
+</div>
+           <div className={styles.section}>
 
             <h1 id='offerings'> Upcoming Offerings by CF Providers</h1>
 </div>
@@ -63,15 +68,6 @@ export default function BlogLayout (props: Props): JSX.Element {
             {isEventsRoute &&
               <>
 
-<div className={styles.section}>
-            <h1 id='events-overview'> Events Overview including Community-Created Events</h1>
-<p>This calendar is co-created by the community—find out how: <a href='how-to-engage/platforms-and-co-creation/schedule-events-through-hylo'>Schedule events through Hylo</a>. Learn how you can receive email invites for new events: <a href='how-to-engage/platforms-and-co-creation/receive-calendar-invites'>Receive Calendar Invites</a>.</p>
-
-<div className="gcal-events">
-            <GcalEvents />
-
-</div>
-</div>
 <div className={styles.section}>
 <div className={styles.section}>
             <Heading as="h1"> Our Global Co-Creation Community on Hylo</Heading>

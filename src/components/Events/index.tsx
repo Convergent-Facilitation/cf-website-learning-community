@@ -43,8 +43,7 @@ export default function GcalEvents(): JSX.Element {
   })
 
     return (
-
-
+        <>
           <FullCalendar
 //             plugins={[googleCalendarPlugin, dayGridPlugin, timeGridPlugin, interactionPlugin, listPlugin]}
               plugins={[ googleCalendarPlugin, listPlugin]}
@@ -62,11 +61,10 @@ export default function GcalEvents(): JSX.Element {
 			buttonText={{
 		      today: 'This Month' // Set custom text for 'today' button
     		}}
-
-
-
-
           />
+		
+		<p>Learn more: <a href='how-to-engage/platforms-and-co-creation/schedule-events-through-hylo'>Schedule events through Hylo</a> & <a href='how-to-engage/platforms-and-co-creation/receive-calendar-invites'>Receive Calendar Invites</a>.</p>
+      </>
     )
   }
 
