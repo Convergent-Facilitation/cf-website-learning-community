@@ -69,6 +69,7 @@ export default function BlogLayout (props: Props): JSX.Element {
 
 <div className="gcal-events">
             <GcalEvents />
+
 </div>
 </div>
 <div className={styles.section}>

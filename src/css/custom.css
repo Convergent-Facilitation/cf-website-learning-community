@@ -60,10 +60,47 @@ h2 {
 }
 .gcal-events {
   overflow: hidden;
-  width: 700px;
   max-width: 700px;
   margin: 0 auto;
 }
+
+.fc-theme-standard .fc-list {
+ border: none;
+}
+
+.fc-list-table .fc-list-event  {
+  background-color: white;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+margin-bottom: 0;
+}
+
+.fc .fc-list-event-title {
+	width: 100%
+}
+
+.fc .fc-button-primary:disabled {
+background-color: var(--ifm-color-primary);
+border:none;
+}
+
+.fc .fc-button-primary {
+background-color: var(--ifm-color-primary);
+border:none;
+}
+
+.fc .fc-button-primary:hover {
+background-color: var(--ifm-color-primary-dark);
+border:none;
+}
+
+.fc .fc-button-primary:focus {
+border:none;
+box-shadow:none;
+}
+
+
 
 @media only screen and (max-width: 768px) {
 .gcal-events {
