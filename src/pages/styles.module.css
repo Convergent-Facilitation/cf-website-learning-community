@@ -19,7 +19,7 @@ textarea {
 }
 
 .section {
-  padding: 74px 0;
+  padding: 40px 0;
   text-align: center;
 }
 
@@ -127,6 +127,7 @@ html[data-theme='dark'] .topBannerTitleText {
 .hero {
   background-color: #fffafc;
   margin-top: -50px;
+  padding-bottom: 100px;
 }
 
 @media only screen and (max-width: 768px) {
