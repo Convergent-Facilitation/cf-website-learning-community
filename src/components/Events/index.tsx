@@ -42,6 +42,21 @@ export default function GcalEvents(): JSX.Element {
     currentEvents: [],
   })
 
+  const visibleRangeFunction = (currentDate) => {
+    // Generate new dates for start and end
+    let startDate = new Date();
+    let endDate = new Date();
+
+    startDate.setDate(startDate.getDate());
+    // Adjust end date: three months into the future
+    endDate.setMonth(endDate.getMonth() + 3);
+
+    return { 
+      start: startDate, 
+      end: endDate
+     };
+  };
+
     return (
         <>
           <FullCalendar
@@ -52,12 +67,13 @@ export default function GcalEvents(): JSX.Element {
     googleCalendarId: 'community-calendar@convergentfacilitation.org'
   }}
             headerToolbar={{
-              left: 'today',
-              right: 'prev,next',
-              center: 'title'
+              left: '', //'today',
+              center: 'title',
+              right: '' //'prev,next',
             }}
-            initialView='listMonth'
+            initialView='list'
         	contentHeight='auto'
+            visibleRange={visibleRangeFunction}
 			buttonText={{
 		      today: 'This Month' // Set custom text for 'today' button
     		}}
