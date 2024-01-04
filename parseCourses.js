@@ -4,7 +4,7 @@ const glob = require("glob");
 const path = require("path");
 
 // Get all mdx files that don't start with _
-glob("resources/recordings-courses-workshops/[!_]*.mdx", function (err, files) {
+glob("resources/recordings-courses-workshops/!(*unlisted).mdx", function (err, files) {
   if(err) {
     console.log("Error finding files: " + err)
   } else {
