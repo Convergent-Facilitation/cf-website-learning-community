@@ -48,6 +48,12 @@ h1 {
   margin: 10px
 }
 
+.button-to-outward-facing{
+	background-color: #fbb52a;
+	border-color: #fbb52a;
+
+}
+
 h2 {
   text-align: center;
   padding-top: 40px;
@@ -172,3 +178,5 @@ div[class^='announcementBar_'] {
   );
   font-weight: bold;
 }
+
+
