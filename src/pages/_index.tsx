@@ -37,7 +37,7 @@ export function HeroBanner () {
               __html: translate({
                 id: 'homepage.hero.title',
                 message:
-                  'hi Rick ✨ <br> Grow <b>Convergent Facilitation Capacity</b> <br>within a Collaborative Learning Web</b>',
+                  'hi Rick ✨ 👋 <br> Grow <b>Convergent Facilitation Capacity</b> <br>within a Collaborative Learning Web</b>',
                 description:
                   'Home page hero title, can contain simple html tags'
               })
