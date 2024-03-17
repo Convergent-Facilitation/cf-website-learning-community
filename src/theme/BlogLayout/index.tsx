@@ -15,6 +15,7 @@ import { HeroBanner, VideoContainer } from '@site/src/pages/_index.tsx'
 import styles from '@site/src/pages/styles.module.css'
 import Heading from '@theme/Heading'
 import LiteYouTubeEmbed from 'react-lite-youtube-embed'
+import { InlineIcon, Icon } from '@iconify/react' // Import the entire Iconify library.
 
 import type { Props } from '@theme/BlogLayout'
 
@@ -70,13 +71,13 @@ export default function BlogLayout (props: Props): JSX.Element {
 
 <div className={styles.section}>
 <div className={styles.section}>
-            <Heading as="h1"> Our Global Co-Creation Community on Hylo</Heading>
+            <Heading as="h1"> Participate in our Learning Web on Hylo</Heading>
 
-<p>Below you see how our global community is distributed (updated Sep 2023). Explore the live map here: <a href='https://www.hylo.com/groups/convergent-facilitation/map?sortBy=updated&hide=discussion&hide=request&hide=offer&hide=resource&hide=project&hide=event&hide=group'>Hylo/Convergent Facilitation Group/Map</a>. If you are not part of our collaborative community space on Hylo find out how to join here: <a href='/how-to-engage/platforms-and-co-creation/co-create-on-hylo'>Co-Create on Hylo</a>.</p>
-          <img
-            alt="map of locations of community members"
-            src="/img/hylo-community-map.webp"
-          />
+<p>
+<a style={{fontSize: '20px'}} href="https://www.hylo.com/groups/convergent-facilitation" target="_blank">Open Hylo in a separate browser tab <InlineIcon icon="gg:external"/></a>
+</p>
+
+<iframe src="https://hylo.com/groups/convergent-facilitation/map?redirectToView=map&sortBy=updated&zoom=0.9704205019091244&center=0%252C13.432557291372511&hideDrawer=true" style={{ width: '100%', height: 'calc(100vh - 50px)', margin:0, padding:0, border:'none' }}></iframe>
 
 </div>
 </div>
