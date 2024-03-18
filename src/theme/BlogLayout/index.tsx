@@ -77,7 +77,7 @@ export default function BlogLayout (props: Props): JSX.Element {
 <a style={{fontSize: '20px'}} href="https://www.hylo.com/groups/convergent-facilitation" target="_blank">Open Hylo in a separate browser tab <InlineIcon icon="gg:external"/></a>
 </p>
 
-<iframe src="https://hylo.com/groups/convergent-facilitation/map?redirectToView=map&sortBy=updated&zoom=0.9704205019091244&center=0%252C13.432557291372511&hideDrawer=true" style={{ width: '100%', height: 'calc(80vh - 50px)', margin:0, padding:0, border:'none' }}></iframe>
+<iframe loading="lazy" scrolling="no" src="https://hylo.com/groups/convergent-facilitation/map?redirectToView=map&sortBy=updated&zoom=0.9704205019091244&center=0%252C13.432557291372511&hideDrawer=true" style={{ width: '100%', height: 'calc(80vh - 50px)', margin:0, padding:0, border:'none' }}></iframe>
 
 </div>
 </div>
