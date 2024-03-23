@@ -26,7 +26,7 @@ export function HeroBanner () {
           <img
             alt={translate({ message: 'Ants building a bridge across a gap' })}
             className={styles.heroLogo}
-            src={useBaseUrl('/img/ant-bridge-drawing.webp')}
+            src={useBaseUrl('/img/ants-bridge-round-corners.webp')}
             width="500"
             height="400"
           />
@@ -47,11 +47,11 @@ export function HeroBanner () {
         </Heading>
 
 
-        <p className={styles.heroProjectSubtitle}> <b>Your first time here?</b> 👉 <b><a href='/how-to-engage/'>Learn about Commons & Community</a></b></p>
+        <p className={styles.heroProjectSubtitle}> <b>First time here?</b> 👉 <b><a href='/how-to-engage/'>Learn about our Commons & Community</a></b></p>
 
-        <p className={styles.heroProjectSubtitle}> <b>Wanting to participate?</b> 👉 <b><a target='_blank' href='https://community.convergentfacilitation.org'>community.convergentfacilitation.org</a></b></p>
+        <p className={styles.heroProjectSubtitle}> <b>You want to join us? </b> 👉 <b><a target='_blank' href='https://community.convergentfacilitation.org'>community.convergentfacilitation.org</a></b></p>
 
-        <p className={styles.heroProjectSubtitle}> <b>Wanting to stay in the loop?</b> 👉  <b><a href='/contact#newsletters'>Sign up to our Capacity-Growing Newsletter</a></b></p>
+        <p className={styles.heroProjectSubtitle}> <b>Just want stay in the loop?</b> 👉  <b><a href='/contact#newsletters'>Sign up to our Capacity-Growing Newsletter</a></b></p>
 
 
       </div>
