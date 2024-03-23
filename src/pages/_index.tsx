@@ -47,9 +47,9 @@ export function HeroBanner () {
         </Heading>
 
 
-        <p className={styles.heroProjectSubtitle}> <b>Here for the first time?</b> 👉 <b><a href='/how-to-engage/'>Learn about our Commons</a></b></p>
+        <p className={styles.heroProjectSubtitle}> <b>Your first time here?</b> 👉 <b><a href='/how-to-engage/'>Learn about Commons & Community</a></b></p>
 
-        <p className={styles.heroProjectSubtitle}> <b>Looking for Community?</b> 👉 <b><a target='_blank' href='https://community.convergentfacilitation.org'>community.convergentfacilitation.org</a></b></p>
+        <p className={styles.heroProjectSubtitle}> <b>Wanting to participate?</b> 👉 <b><a target='_blank' href='https://community.convergentfacilitation.org'>community.convergentfacilitation.org</a></b></p>
 
         <p className={styles.heroProjectSubtitle}> <b>Wanting to stay in the loop?</b> 👉  <b><a href='/contact#newsletters'>Sign up to our Capacity-Growing Newsletter</a></b></p>
 
