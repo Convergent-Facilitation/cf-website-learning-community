@@ -132,7 +132,7 @@ const config = {
             title: 'How to Engage',
             items: [
               {
-                label: 'Find your Way to Engage',
+                label: 'Commons and Community',
                 to: '/how-to-engage'
               },
               {
@@ -140,8 +140,8 @@ const config = {
                 to: '/how-to-engage/ask-for-coaching'
               },
               {
-                label: 'Practice groups',
-                to: '/how-to-engage/practice-groups'
+                label: 'Practice sessions',
+                to: '/how-to-engage/practice-sessions'
               },
             ]
           },
