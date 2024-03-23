@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Grow CF Capacity',
-  tagline: 'Grow Convergent Facilitation Capacity within a Collaborative Learning Web',
+  tagline: 'Grow Convergent Facilitation Capacity in Community',
   favicon: 'img/convergentfacilitation_logo.webp',
 
   // Set the production url of your site here
@@ -96,11 +96,6 @@ const config = {
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
-      },
-      announcementBar: {
-        id: 'announcementBar-5', // Increment on change
-        content: '⭐️ Welcome to our new Grow Convergent Facilitation Capacity website! Watch the recording <a target="_blank" rel="noopener noreferrer" href="/resources/recordings-courses-workshops/2023-11-30-transforming-inner-obstacles-roni-verene"><i>Transforming inner Obstacles Workshop</i></a> w/ Roni & Verene⭐️'
-
       },
       navbar: {
         hideOnScroll: false,
@@ -247,7 +242,7 @@ const config = {
         blogSidebarTitle: 'All Events',
 		blogSidebarCount: 0,
         blogTitle: 'Grow Convergent Facilitation',
-        blogDescription: 'Grow Convergent Facilitation Capacity within a Collaborative Learning Web',
+        blogDescription: 'Grow Convergent Facilitation Capacity in Community',
         showReadingTime: false,
         authorsMapPath: '../humans.yml'
       }
