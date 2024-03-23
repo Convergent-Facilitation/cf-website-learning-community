@@ -26,7 +26,7 @@ export function HeroBanner () {
           <img
             alt={translate({ message: 'Ants building a bridge across a gap' })}
             className={styles.heroLogo}
-            src={useBaseUrl('/img/ants-bridge-round-corners.webp')}
+            src={useBaseUrl('/img/ant-bridge-drawing.webp')}
             width="500"
             height="400"
           />
@@ -37,19 +37,22 @@ export function HeroBanner () {
               __html: translate({
                 id: 'homepage.hero.title',
                 message:
-                  'Grow <b>Convergent Facilitation Capacity</b> <br>within a Collaborative Learning Web</b>',
+                  'Grow <b>Convergent Facilitation Capacity</b> in Community</b>',
                 description:
+
                   'Home page hero title, can contain simple html tags'
               })
             }}
           />
         </Heading>
 
-        <p className={styles.heroProjectSubtitle}> <b>Here for the first time?</b> 👉 <b><a href='/how-to-engage/'>Find your Way to Engage</a></b></p>
+
+        <p className={styles.heroProjectSubtitle}> <b>Here for the first time?</b> 👉 <b><a href='/how-to-engage/'>Learn about our Commons</a></b></p>
+
+        <p className={styles.heroProjectSubtitle}> <b>Looking for Community?</b> 👉 <b><a target='_blank' href='https://community.convergentfacilitation.org'>community.convergentfacilitation.org</a></b></p>
 
         <p className={styles.heroProjectSubtitle}> <b>Wanting to stay in the loop?</b> 👉  <b><a href='/contact#newsletters'>Sign up to our Capacity-Growing Newsletter</a></b></p>
 
-        <p className={styles.heroProjectSubtitle}> <b>Looking for something specific?</b> 👉  <b>Search in the top menu bar, e.g. </b> <code><InlineIcon icon="ph:magnifying-glass-bold"/> zoom room</code></p>
 
       </div>
     </div>

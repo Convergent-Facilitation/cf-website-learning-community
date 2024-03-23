@@ -79,7 +79,7 @@ export default function GcalEvents(): JSX.Element {
     		}}
           />
 		
-		<p>Learn more: <a href='how-to-engage/platforms-and-co-creation/schedule-events-through-hylo'>Schedule events through Hylo</a> & <a href='how-to-engage/platforms-and-co-creation/receive-calendar-invites'>Receive Calendar Invites</a>.</p>
+		<p>Learn how to <a href='how-to-engage/receive-calendar-invites'>receive calendar invites</a>.</p>
       </>
     )
   }

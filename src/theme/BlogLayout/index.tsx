@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -71,13 +71,20 @@ export default function BlogLayout (props: Props): JSX.Element {
 
 <div className={styles.section}>
 <div className={styles.section}>
-            <Heading as="h1"> Participate in our Learning Web on Hylo</Heading>
+            <Heading as="h1"> Participate in our global learning and practice community</Heading>
+
+
 
 <p>
-<a style={{fontSize: '20px'}} href="https://www.hylo.com/groups/convergent-facilitation" target="_blank">Open Hylo in a separate browser tab <InlineIcon icon="gg:external"/></a>
-</p>
+Note, we just changed community platforms (from Hylo to Discourse). Join us here: <a  href="https://community.convergentfacilitation.org" target="_blank">community.convergentfacilitation.org <InlineIcon icon="gg:external"/></a>
 
-<iframe loading="lazy" scrolling="no" src="https://hylo.com/groups/convergent-facilitation/map?redirectToView=map&sortBy=updated&zoom=0.9704205019091244&center=0%252C13.432557291372511&hideDrawer=true" style={{ width: '100%', height: 'calc(80vh - 50px)', margin:0, padding:0, border:'none' }}></iframe>
+</p>
+<p>
+  <img
+            alt="map of locations of community members"
+            src="/img/hylo-global-community-map.webp"
+          />
+</p>
 
 </div>
 </div>

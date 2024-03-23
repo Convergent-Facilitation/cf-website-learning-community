@@ -124,15 +124,9 @@ const config = {
             type: 'search',
             position: 'right'
           },
-
-          {
-            href: 'https://www.hylo.com/groups/convergent-facilitation',
-            position: 'right',
-            className: 'header-hylo-link',
-            'aria-label': 'Hylo Group'
-          },
-	  { label: 'Give', to: 'give', position: 'right' },
-	  { label: 'Contact', to: 'contact', position: 'right' },
+		  { label: 'Give', to: 'give', position: 'right' },
+		  { label: 'Contact', to: 'contact', position: 'right' },
+          { label: 'Community', href: 'https://commmunity.convergentfacilitation.org', position: 'right' },
 
         ]
       },
@@ -147,20 +141,12 @@ const config = {
                 to: '/how-to-engage'
               },
               {
-                label: 'Co-Create Learning Web on Hylo',
-                to: '/how-to-engage/platforms-and-co-creation/co-create-on-hylo',
-              },
-              {
                 label: 'Ask for Coaching',
-                to: '/how-to-engage/apply-and-apprentice/ask-for-coaching'
+                to: '/how-to-engage/ask-for-coaching'
               },
               {
-                label: 'Participate in Practice groups',
-                to: '/how-to-engage/experience-and-embody/practice-groups'
-              },
-              {
-				label: 'Offer a Practice group',
-                to: '/how-to-engage/apply-and-apprentice/offer-practice-groups'
+                label: 'Practice groups',
+                to: '/how-to-engage/practice-groups'
               },
             ]
           },
@@ -198,18 +184,18 @@ const config = {
               },
               {
                 label: 'Newsletter',
-                to: '/contact#newsletters'
+                to: '/contact#grow-cf-capacity-newsletter'
               },
               {
-				label: 'Learning Web on Hylo',
-		        href: 'https://www.hylo.com/groups/convergent-facilitation'
+				label: 'CF Community',
+		        href: 'https://community.convergentfacilitation.org'
               },
               {
                 label: 'NGL Community',
                 href: 'https://nglcommunity.org'
               },
               {
-                label: 'Website Code on Github',
+                label: 'Github',
                 href: 'https://github.com/Convergent-Facilitation/cf-website-learning-community/tree/main'
               },
 
