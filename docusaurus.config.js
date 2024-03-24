@@ -219,6 +219,10 @@ const config = {
             to: '/2023-nov-roni-verene-transforming-inner-obstacles',
             from: '/tio1',
           },
+          {
+            to: '/thresholds-roni-verene-june-2024',
+            from: '/cst1',
+          },
           // Redirect from multiple old paths to the new path
         ],
       },

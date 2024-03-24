@@ -181,3 +181,8 @@ div[class^='announcementBar_'] {
 }
 
 
+.round-image {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
