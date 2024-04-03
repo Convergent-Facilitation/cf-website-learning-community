@@ -26,7 +26,7 @@ export function HeroBanner () {
           <img
             alt={translate({ message: 'Ants building a bridge across a gap' })}
             className={styles.heroLogo}
-            src={useBaseUrl('/img/ants-bridge-round-corners.webp')}
+            src={useBaseUrl('/img/ants-bridge-round-corners-590x400.webp')}
             width="500"
             height="400"
           />
