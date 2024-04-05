@@ -36,12 +36,13 @@ export default function BlogLayout (props: Props): JSX.Element {
 			<HeroBanner/>
 <div className={styles.section}>
 <div id="community-calendar" className="gcal-events">
+            <h1 id='community-events'> Community Events </h1>
             <GcalEvents />
 </div>
 </div>
            <div className={styles.section}>
 
-            <h1 id='offerings'> Upcoming Offerings by CF Providers</h1>
+            <h1 id='upcoming-offerings'> Upcoming Offerings by CF Providers</h1>
 </div>
               </>
             }
