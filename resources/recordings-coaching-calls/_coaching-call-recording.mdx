@@ -1,10 +1,21 @@
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import AudioPlayer from 'react-h5-audio-player';
+import ConditionalRenderer from '@site/src/components/ConditionalRendererCommunityTopic';
 
 [< Back to Coaching Call Library](/coaching-calls)  
 
-<p><span>{props.description}</span></p>
+<ConditionalRenderer frontMatter={{community_topic: props.community_topic}}>
 
+:::tip invitation
+
+<p>  🌟 <a href={props.community_topic} target="_blank"><b>Share your insights, learnings or questions</b></a> in relation to this coaching call with the community.</p> 
+
+Note, this requires registration, learn more here: [Commons & Community](/how-to-engage/#community).
+
+
+:::
+
+</ConditionalRenderer>
 
 
 
@@ -18,3 +29,6 @@ import AudioPlayer from 'react-h5-audio-player';
   webp
 />
 
+## Description
+
+<p><span>{props.description}</span></p>
