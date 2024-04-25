@@ -121,7 +121,7 @@ const config = {
           },
 		  { label: 'Give', to: 'give', position: 'right' },
 		  { label: 'Contact', to: 'contact', position: 'right' },
-          { label: 'Community', href: 'https://commmunity.convergentfacilitation.org', position: 'right' },
+          { label: 'Community', href: 'https://community.convergentfacilitation.org', position: 'right' },
 
         ]
       },
