@@ -1,6 +1,7 @@
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import AudioPlayer from 'react-h5-audio-player';
 import ConditionalRenderer from '@site/src/components/ConditionalRendererCommunityTopic';
+import "react-h5-audio-player/lib/styles.css";
 
 [< Back to Coaching Call Library](/coaching-calls)  
 
@@ -18,6 +19,11 @@ Note, this requires registration, learn more here: [Commons & Community](/how-to
 </ConditionalRenderer>
 
 
+## Description
+
+<p><span>{props.description}</span></p>
+
+
 
 ## Watch
 
@@ -29,6 +35,18 @@ Note, this requires registration, learn more here: [Commons & Community](/how-to
   webp
 />
 
-## Description
+<ConditionalRenderer frontMatter={{community_topic: props.audiopath}}>
 
-<p><span>{props.description}</span></p>
+
+## Listen 
+
+<p>
+<AudioPlayer
+  src={props.audiopath}
+  volume={0.5}
+/>
+</p>
+
+<p>📥 <a href={props.audiopath} download={props.title} target="_blank">Download audio file to your device</a> (Click on the three dots to access the download option).</p>
+
+</ConditionalRenderer>
