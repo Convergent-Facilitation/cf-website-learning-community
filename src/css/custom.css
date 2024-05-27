@@ -51,6 +51,15 @@ h1 {
 .button-to-outward-facing{
 	background-color: #fbb52a;
 	border-color: #fbb52a;
+}
+
+.navbar-button {
+	color: white; 
+	font-weight: bold;
+	background: #fbb52a;
+	padding-right:       var(--ifm-navbar-item-padding-horizontal) !important;
+	text-align: center;
+	border-color: #fbb52a;
 
 }
 

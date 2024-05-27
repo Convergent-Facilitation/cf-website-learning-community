@@ -157,6 +157,14 @@ const config = {
 		  { label: 'Give', to: 'give', position: 'right' },
 		  { label: 'Contact', to: 'contact', position: 'right' },
           { label: 'Community', href: 'https://community.convergentfacilitation.org', position: 'right' },
+		{
+			to: 'https://convergentfacilitation.org', // the location where the button should link
+          label: 'Solutions',
+          position: 'right',
+          className: 'button button--primary navbar-button', // will target this in CSS
+			//
+        },
+
 
         ]
       },
