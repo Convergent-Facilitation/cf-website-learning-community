@@ -111,10 +111,45 @@ const config = {
             position: 'left',
             docId: 'index'
           },
-          { label: 'Coaching Calls', to: 'coaching-calls', position: 'left' },
-          { label: 'Courses', to: 'courses', position: 'left' },
-          { label: 'Materials', to: 'Materials', position: 'left' },
-          { label: 'App', href: 'https://www.convergence.tools', position: 'left' },
+          {
+            type: 'dropdown',
+            label: 'Offerings',
+            position: 'left',
+            items: [
+              {
+				  label: 'All Community Events',
+                href: '/#community-events'
+              },
+              {
+				  label: 'Offerings by CF Providers',
+                href: '/#upcoming-offerings'
+              },
+              {
+				  label: 'Workshop: Choosing Supportive Thresholds',
+                to: '/thresholds-roni-verene-june-2024'
+              },
+            ]
+          },
+          {
+            type: 'dropdown',
+            label: 'Library',
+            position: 'left',
+            items: [
+              {
+				  label: 'Coaching Call Recordings',
+                to: '/coaching-calls'
+              },
+              {
+				  label: 'Course & Workshop Recordings',
+                to: '/courses'
+              },  
+              {
+				  label: 'Other Materials',
+                to: '/materials'
+              },  
+            ]
+          },
+          { label: 'CF App', href: 'https://www.convergence.tools', position: 'left' },
           {
             type: 'search',
             position: 'right'
