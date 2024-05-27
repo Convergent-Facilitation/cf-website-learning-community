@@ -28,6 +28,7 @@ collections:
     extension: "mdx"
     format: "frontmatter"
     create: true # Allow users to create new documents in this collection
+    publish: false
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     nested:
       depth: 100 # max depth to show in the collection tree
