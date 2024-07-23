@@ -36,8 +36,27 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Start Date", name: "date", widget: "datetime"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Link Preview Description", name: "description", widget: "text"}
       - {label: "Providers", name: "authors", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "blog"
+    label: "Blog"
+    folder: "blog"
+    create: true
+    preview_path: blog/{{slug}}
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    extension: "mdx"
+    format: "frontmatter"
+    meta: { path: { widget: string, label: 'Path', index_file: 'overview' } }
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{title}}'
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Sidebar Position", name: "sidebar_position", widget: "number"}
+      - {label: "Link Preview Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
