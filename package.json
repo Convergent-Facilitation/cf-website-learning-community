@@ -1,6 +1,7 @@
 {
   "name": "cf-facilitate-website",
   "version": "0.0.0",
+  "packageManager": "yarn@1.22.19",
   "private": true,
   "scripts": {
     "prebuild": "yarn parse-coaching-calls && yarn parse-courses && yarn parse-materials",
