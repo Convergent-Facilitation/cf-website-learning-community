@@ -1,8 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github')
-const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -32,7 +31,7 @@ const config = {
     // ... Your other themes.
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} **/
       ({
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
@@ -241,9 +240,9 @@ const config = {
 
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme
-      }
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
     }),
   plugins: [
 	  [
