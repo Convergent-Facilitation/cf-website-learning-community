@@ -2,19 +2,17 @@ import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import AudioPlayer from 'react-h5-audio-player';
 import ConditionalRenderer from '@site/src/components/ConditionalRendererCommunityTopic';
 import "react-h5-audio-player/lib/styles.css";
+import Admonition from '@theme/Admonition';
+
 
 [< Back to Coaching Call Library](/coaching-calls)  
 
 <ConditionalRenderer frontMatter={{community_topic: props.community_topic}}>
 
-:::tip invitation
+<Admonition type="tip" icon="🌟" title="What are you taking with you?">
+<p><a href={props.community_topic} target="_blank">Share your insights, learnings or questions</a> about this coaching call with the community (requires registration).</p> 
 
-<p>  🌟 <a href={props.community_topic} target="_blank"><b>Share your insights, learnings or questions</b></a> about this coaching call with the community.</p> 
-
-Note, this requires registration, learn more here: [Commons & Community](/how-to-engage/#community).
-
-
-:::
+</Admonition>
 
 </ConditionalRenderer>
 
