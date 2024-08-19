@@ -43,6 +43,7 @@ export default function BlogLayout (props: Props): JSX.Element {
            <div className={styles.section}>
 
             <h1 id='upcoming-offerings'> Upcoming Offerings by CF Providers</h1>
+            <p>You can find recordings from previous events in our <a href="/courses">Library: Courses and Workshops Recordings</a>.</p>
 </div>
               </>
             }
