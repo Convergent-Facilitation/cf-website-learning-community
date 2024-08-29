@@ -123,10 +123,16 @@ const config = {
 				  label: 'Offerings by CF Providers',
                 href: '/#upcoming-offerings'
               },
-              {
-				  label: 'Workshop: Choosing Supportive Thresholds',
+			/**
+			 // Add here list of active offerings
+              { label: 'Workshop: Choosing Supportive Thresholds',
                 to: '/thresholds-roni-verene-june-2024'
               },
+			**/
+		     {
+				 label: 'Recordings of Previous Offerings',
+				 href: '/courses'
+			} 
             ]
           },
           {
