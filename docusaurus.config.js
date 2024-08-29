@@ -5,8 +5,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Grow CF Capacity',
-  tagline: 'Grow Convergent Facilitation Capacity in Community',
+  title: 'Learn Convergent Facilitation',
+  tagline: 'Learn to faciliate and apply Convergent Facilitation',
   favicon: 'img/convergentfacilitation_logo.webp',
 
   // Set the production url of your site here
@@ -98,7 +98,7 @@ const config = {
       },
       navbar: {
         hideOnScroll: false,
-        title: 'Grow CF Capacity',
+        title: 'Learn Convergent Facilitation',
         logo: {
           alt: 'Convergent Facilitation Logo',
           src: 'img/convergentfacilitation_logo.webp'
