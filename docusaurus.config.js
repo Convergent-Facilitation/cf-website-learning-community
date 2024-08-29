@@ -155,7 +155,19 @@ const config = {
           },
 		  { label: 'Give', to: 'give', position: 'right' },
 		  { label: 'Contact', to: 'contact', position: 'right' },
-          { label: 'Community', href: 'https://community.convergentfacilitation.org', position: 'right' },
+		  {
+			 // custom link to community with logo
+             position: 'right',
+			 type: 'html',
+             value: `
+               <a href="/" class="navbar__link" style="display: flex; align-items: center; font-weight: bold;">
+                 <img src="/img/community-logo-favicon_32x32.png" alt="Community Logo" style="width: 20px; height: 20px; margin-right: 8px;" />
+                 <span>Community</span>
+               </a>
+			   `
+           },
+
+
 
         ]
       },
