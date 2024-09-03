@@ -34,9 +34,9 @@ export default function BlogLayout (props: Props): JSX.Element {
             {isEventsRoute &&
               <>
 			<HeroBanner/>
-<div className={styles.section}>
-<div id="community-calendar" className="gcal-events">
-            <h1 id='community-events'> Community Events </h1>
+<div id="community-calendar" className={styles.section}>
+  <h1 id='community-events'> Community Events </h1>
+  <div className="gcal-events">
             <GcalEvents />
 </div>
 </div>
