@@ -41,9 +41,16 @@
   white-space: normal; /* Allow text to wrap */
   line-height: 1;
   font-size: 0.9em;
+  font-weight: normal;
+  color: #404040;
   font-family: 'Arial';
+  letter-spacing: 2px;
 }
 
+.navbar__title:before {
+  content: "Learn ";
+  font-weight: 800;
+}
 
 body {
  background-color: #fffafc;

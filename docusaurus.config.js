@@ -98,7 +98,8 @@ const config = {
       },
       navbar: {
         hideOnScroll: false,
-        title: 'Learn Convergent Facilitation',
+    	title: 'Convergent Facilitation',
+ 
         logo: {
           alt: 'Convergent Facilitation Logo',
           src: 'img/convergentfacilitation_logo.webp'
