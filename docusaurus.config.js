@@ -38,9 +38,9 @@ const config = {
         hashed: true,
         indexPages: true,
         docsRouteBasePath: ['/how-to-engage', '/resources'],
-        blogRouteBasePath: ['/blog', '/events'],
+        blogRouteBasePath: ['/facilitation-insights', '/events'],
         docsDir: ['how-to-engage', 'resources'],
-        blogDir: ['blog', 'events']
+        blogDir: ['facilitation-insights', 'events']
 
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
@@ -72,9 +72,14 @@ const config = {
 			'https://github.com/Convergent-Facilitation/cf-website-learning-community/tree/main'
         },
         blog: {
+			path: 'facilitation-insights',
+			routeBasePath: '/facilitation-insights',
+			id: 'facilitation-insights',
+			blogSidebarTitle: 'Facilitation Insights',
+			blogTitle: 'Faciltation Insights',
+			blogDescription: 'Hear about what others learned from applying Convergent Facilitation processes and principles.',
+			authorsMapPath: '../humans.yml',
           showReadingTime: true,
-          blogSidebarTitle: 'All Posts',
-          authorsMapPath: '../humans.yml',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
